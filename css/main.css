@@ -58,3 +58,9 @@ body {
 	max-width:200px;
 }
 
+/*------NAVBAR------*/
+
+.nav-link {
+	display:inline-block;
+}
+
