@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box; /* check prefixes, this will make the border be included in the width of an element */
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+	font-family: robotoThin;
+	src: url(/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+	font-family: robotoRegular;
+	src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family:robotoBold;
+	src: url(/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+	font-family: fancy;
+	src: url(/fonts/Monotype Corsiva.ttf);
+}
+
+
+/*------LAYOUT------*/
+
+html {
+	height:100%;
+	background:url('/images/brickwall.png');
+} 
+
+body {
+  	margin:0 auto;
+  	font-weight: 400;
+  	line-height: 1.5;
+  	height:100%;
+  	color: black;
+  	font-size: 18px;
+  	background:url('/images/brickwall.png');
+}
+
+
+/*------HEADER------*/
+
+.header-bar {
+	position:fixed;
+	height: 250px;
+	width:100%;
+	background-color:#6B3333;
+	color:white;
+	font-family:robotoBold;
+}
+
+
