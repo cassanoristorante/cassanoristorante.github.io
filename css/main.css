@@ -64,3 +64,8 @@ body {
 	display:inline-block;
 }
 
+.nav-link {
+	color:white;
+	text-decoration:none;
+}
+
