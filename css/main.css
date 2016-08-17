@@ -47,11 +47,14 @@ body {
 
 .header-bar {
 	position:fixed;
-	height: 250px;
+	height: 150px;
 	width:100%;
 	background-color:#6B3333;
 	color:white;
 	font-family:robotoBold;
 }
 
+.site-logo {
+	max-width:200px;
+}
 
