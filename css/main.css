@@ -60,7 +60,7 @@ body {
 
 /*------NAVBAR------*/
 
-.nav-link {
+.header-nav li {
 	display:inline-block;
 }
 
