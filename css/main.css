@@ -56,9 +56,15 @@ body {
 
 .site-logo {
 	max-width:200px;
+	float:left;
 }
 
 /*------NAVBAR------*/
+
+.navbar {
+	float:left;
+	margin-left:2em;
+}
 
 .main-nav li {
 	display:inline-block;
@@ -67,5 +73,7 @@ body {
 .nav-link {
 	color:white;
 	text-decoration:none;
+	padding:.5em;
+	margin: 0 .5em;
 }
 
