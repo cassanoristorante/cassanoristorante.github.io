@@ -104,7 +104,10 @@ a:hover {
 	width:100%;
 }
 
+.main-logo-holder {
+	text-align:center;
+}
 .main-logo {
 	position:absolute;
-	float:middle;
+	max-width:500px;
 }
