@@ -73,19 +73,6 @@ a:hover {
 	float:left;
 }
 
-.social-media {
-	float:right;
-	padding:30px;
-}
-
-.social-link {
-	padding: 0 .2em;
-}
-
-.main-image {
-	width:100%;
-}
-
 .navbar {
 	float:left;
 	margin:2.5em 0 0 9em;
@@ -104,3 +91,20 @@ a:hover {
 	letter-spacing:1px;
 }
 
+.social-media {
+	float:right;
+	padding:30px;
+}
+
+.social-link {
+	padding: 0 .2em;
+}
+
+.main-image {
+	width:100%;
+}
+
+.main-logo {
+	position:absolute;
+	float:middle;
+}
