@@ -69,12 +69,12 @@ body {
 }
 
 .social-media {
-	float:left;
-	margin:3em 0;
+	float:right;
+	padding:38px;
 }
 
 .social-link {
-	padding: 0 1em;
+	padding: 0 .2em;
 }
 
 /*------NAVBAR------*/
