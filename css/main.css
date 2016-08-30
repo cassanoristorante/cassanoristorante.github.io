@@ -46,6 +46,10 @@ body {
 	clear:both;
 }
 
+a:hover {
+	opacity:.7;
+}
+
 
 /*------HEADER------*/
 
