@@ -51,7 +51,7 @@ a:hover {
 }
 
 
-/*------HEADER------*/
+/*------ HEADER / NAVBAR ------*/
 
 .header-bar {
 	position:fixed;
@@ -81,7 +81,9 @@ a:hover {
 	padding: 0 .2em;
 }
 
-/*------NAVBAR------*/
+.main-image {
+	width:100%;
+}
 
 .navbar {
 	float:left;
