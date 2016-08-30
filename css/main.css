@@ -61,6 +61,7 @@ a:hover {
 	background-color:#6B3333;
 	color:white;
 	font-family:robotoRegular;
+	z-index:1000;
 }
 
 .site-title {
@@ -101,7 +102,6 @@ a:hover {
 }
 
 .banner-contain {
-	position:relative;
 	width:100%;
 }
 
