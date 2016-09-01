@@ -181,6 +181,7 @@ a:hover {
 
 .menu-item {
 	float:left;
+	text-align:left;
 }
 
 .item-price {
