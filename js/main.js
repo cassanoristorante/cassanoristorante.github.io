@@ -14,12 +14,11 @@ $(document).ready(function(){
 }; */
 
 (function() {
-    var  $target = $('#target');
 
     $('menu-link').on('click', '> a', function(event) {
         var $this = $(this);
         event.preventDefault();
-        $target.load($this.attr('href'));
+        (.'menu-loader').load($this.attr('href'));
     });
 });
 
