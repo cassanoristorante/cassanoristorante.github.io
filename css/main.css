@@ -44,8 +44,9 @@ body {
 }
 
 .container {
-	width:100%;
+	width:85%;
 	min-height:1000px;
+	margin:0 auto;
 }
 
 .cf {
