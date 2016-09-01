@@ -14,13 +14,10 @@ $(document).ready(function(){
 }; */
 
 $(function() {
-    var $menu = $('#menu-nav'), 
-        $target = $('#target');
 
     $('.menu-link').click(function(event) {
-        var this = $(this);
-        event.preventDefault();
-        $target.load($this.attr('href'));
+        $event.preventDefault();
+        ('#target').load($this.attr('href'));
         console.log('TITTIES');
     });
 });
