@@ -6,13 +6,12 @@ $(document).ready(function(){
 /* ------ LOAD MENUS ON CLICK ------- */
 
 
-function loadMenu(menu){
-            document.getElementById("content").innerHTML='<object type="type/html" data='+menu+'></object>';
+  window.onload = function() {
+    document.getElementsByClassName("menu-link");.onclick = function loadMenu(menu) {
+        document.getElementById("menu-loader").innerHTML='<object type="type/html" data='+menu+'></object>';
+	};
 
-  };
-
-
-
+};
 
 
 
