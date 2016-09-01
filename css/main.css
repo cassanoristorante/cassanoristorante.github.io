@@ -161,6 +161,20 @@ a:hover {
 
 /* ------- MENU ------- */
 
+.menu-nav {
+	text-align:center;
+}
+
+.menu-links {
+	display:inline-block;
+	background-color:white;
+	color:#6B3333;
+	border:2px solid #6B3333;
+	padding:.25em;
+	margin:1.5em;
+}
+
+
 .menu-section {
 	width:300px;
 	background-color:white;
