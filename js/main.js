@@ -15,6 +15,7 @@ $(document).ready(function(){
 
 $('.menu-link').click(function () { 
             $('.menu-loader').load('/lunch-menu.html'); 
+            console.log('TITTIES');
         }); 
 
 
