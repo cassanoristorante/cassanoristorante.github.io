@@ -18,7 +18,7 @@ $(document).ready(function(){
     $('menu-link').on('click', '> a', function(event) {
         var $this = $(this);
         event.preventDefault();
-        (.'menu-loader').load($this.attr('href'));
+        ('#menu-loader').load($this.attr('href'));
     });
 });
 
