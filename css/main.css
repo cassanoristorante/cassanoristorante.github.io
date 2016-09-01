@@ -78,6 +78,10 @@ a:hover {
 	font-family:robotoBold;
 }
 
+.al-left {
+	text-align:left;
+}
+
 
 /*------ HEADER / NAVBAR ------*/
 
@@ -181,7 +185,6 @@ a:hover {
 
 .menu-item {
 	float:left;
-	text-align:left;
 }
 
 .item-price {
