@@ -159,11 +159,11 @@ a:hover {
 	width:300px;
 	background-color:white;
 	color:black;
-	min-height:500px;
 	border-radius:5px;
 	display:inline-block;
 	margin:1em 1.5em;
 	padding:1em;
+	vertical-align: top;
 }
 
 .menu-category {
