@@ -162,12 +162,14 @@ a:hover {
 	min-height:500px;
 	border-radius:5px;
 	display:inline-block;
+	margin:1em 1.5em;
 }
 
 .menu-category {
 	font-size:1.5em;
 	color:#6B3333;
 	text-align:center;
+	margin-bottom:.5em;
 }
 
 .item-and-price {
@@ -175,12 +177,12 @@ a:hover {
 }
 
 .menu-item {
-
+	float:left;
 }
 
 .item-price {
 	color:#6B3333;
-	text-align:right;
+	float:right;
 }
 
 .item-description {
