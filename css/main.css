@@ -127,3 +127,18 @@ a:hover {
 .main-logo {
 	max-width:500px;
 }
+
+/* ------- MAIN CONTENT -------- */
+
+.page-title {
+	text-align:center;
+	color: #6B3333;
+}
+
+.first-word-big {
+	font-family:fancy;
+}
+
+.second-word-big {
+	font-family:robotoBold;
+}
