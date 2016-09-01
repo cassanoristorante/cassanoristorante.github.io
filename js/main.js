@@ -13,12 +13,15 @@ $(document).ready(function(){
 
 }; */
 
-$('#lunch-menu').click(function () { 
-            $('.menu-loader').load('/lunch-menu.html'); 
-            console.log('TITTIES');
-        }); 
+(function() {
+    var  $target = $('#target');
 
-
+    $('menu-link').on('click', '> a', function(event) {
+        var $this = $(this);
+        event.preventDefault();
+        $target.load($this.attr('href'));
+    });
+});
 
 
 
