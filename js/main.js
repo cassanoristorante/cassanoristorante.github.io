@@ -13,15 +13,16 @@ $(document).ready(function(){
 
 }; */
 
-(function() {
+$(function() {
+    var $menu = $('#menu-nav'), 
+        $target = $('#target');
 
-    $('menu-link').on('click', '> a', function(event) {
+    $menu.on('click', '> a', function(event) {
         var $this = $(this);
         event.preventDefault();
-        ('#menu-loader').load($this.attr('href'));
+        $target.load($this.attr('href'));
     });
 });
-
 
 
 
