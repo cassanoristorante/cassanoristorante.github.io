@@ -166,6 +166,8 @@ a:hover {
 
 .menu-category {
 	font-size:1.5em;
+	color:#6B3333;
+	text-align:center;
 }
 
 .item-and-price {
@@ -178,7 +180,7 @@ a:hover {
 
 .item-price {
 	color:#6B3333;
-	text-align:left;
+	text-align:right;
 }
 
 .item-description {
