@@ -60,6 +60,22 @@ a:hover {
 	opacity:.7;
 }
 
+.fancy {
+	font-family:fancy;
+}
+
+.thin {
+	font-family:robotoThin;
+}
+
+.regular {
+	font-family:robotoRegular;
+}
+
+.bold {
+	font-family:robotoBold;
+}
+
 
 /*------ HEADER / NAVBAR ------*/
 
@@ -134,13 +150,38 @@ a:hover {
 	text-align:center;
 	color: #6B3333;
 	margin-top:1.5em;
-	font-size:2em;
+	font-size:3.5em;
 }
 
-.first-word-big {
-	font-family:fancy;
+/* ------- MENU ------- */
+
+.menu-section {
+	width:300px;
+	background-color:white;
+	color:black;
+	min-height:500px;
+	border-radius:5px;
+	display:inline-block;
 }
 
-.second-word-big {
-	font-family:robotoBold;
+.menu-category {
+	font-size:1.5em;
 }
+
+.item-and-price {
+
+}
+
+.menu-item {
+
+}
+
+.item-price {
+	color:#6B3333;
+	text-align:left;
+}
+
+.item-description {
+
+}
+
