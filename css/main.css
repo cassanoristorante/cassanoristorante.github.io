@@ -47,6 +47,7 @@ body {
 	width:85%;
 	min-height:1000px;
 	margin:0 auto;
+	text-align:center;
 }
 
 .cf {
@@ -188,6 +189,7 @@ a:hover {
 }
 
 .item-description {
+	text-align:left;
 
 }
 
