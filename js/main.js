@@ -13,7 +13,7 @@ var getTime = function(time) {
 	console.log(time);
 };
 
-getTime(time);
+function getTime(time);
 
 
 
