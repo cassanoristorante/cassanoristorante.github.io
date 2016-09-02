@@ -6,9 +6,8 @@ $(document).ready(function(){
 /* ------ LOAD MENUS ON CLICK ------- */
 
 
-var time = Date.getHours();
-
-var getTime = function(time) {
+var getTime = function() {
+	var time = $.now()
 	console.log(time);
 };
 
