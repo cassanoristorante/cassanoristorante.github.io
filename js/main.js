@@ -21,19 +21,19 @@ if (time > 16){
 
 $('.menu-link').click(function(link){
 	$('#target').html('');
-	var link = event.target.id;
+	var whichMenu = event.target.id;
 	console.log(link);
-	/* if ($(this).id == '#lunch'){
+	if (link == 'lunch'){
 		$('#target').load('/lunch-menu.html');
-	} else if ($(this).id == '#dinner'){
+	} else if (link == 'dinner'){
 		$('#target').load('/dinner-menu.html');
-	} else if ($(this).id == '#bar'){
+	} else if (link == 'bar'){
 		$('#target').load('/bar-menu.html');
-	} else if ($(this).id == '#catering'){
+	} else if (link == 'catering'){
 		$('#target').load('/catering-menu.html');
 	} else{
 		$('#target').load('/wine-menu.html');
-	} */
+	}
  });
 
 });
