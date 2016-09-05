@@ -14,4 +14,7 @@ console.log(time);
 
 $('#lunck').click(function(){
 	$('#target').load('/lunch-menu.html');
+
+	});
+
 });
