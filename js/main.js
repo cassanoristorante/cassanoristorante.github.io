@@ -7,9 +7,15 @@ $(document).ready(function(){
 
 
 
-var d = new Date();
+/* var d = new Date();
 var time = d.toLocaleTimeString();
+console.log(time); */
+
+var objDate = new Date();
+var time = objDate.getHours();
 console.log(time);
+
+
 
 
 $('#lunch').click(function(){
