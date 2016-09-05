@@ -3,13 +3,7 @@ $(document).ready(function(){
 
 
 
-/* ------ LOAD MENUS ON CLICK ------- */
-
-
-
-/* var d = new Date();
-var time = d.toLocaleTimeString();
-console.log(time); */
+/* ------ LOAD LUNCH OR DINNER MENU BASED ON TIME OF DAY ------- */
 
 var objDate = new Date();
 var time = objDate.getHours();
@@ -22,14 +16,22 @@ if (time > 16){
 };
 
 
-$('#lunch').click(function(link){
-	
+/* ------- LOAD MENUS ON CLICK ------- */
+
+
+$('.menu-link').click(function(link){
 	$('#target').html('');
-	$('#target').load('/lunch-menu.html');
-	});
+	if ($(this).id == '#lunch'){
+		$('#target').load('/lunch-menu.html');
+	} else if ($(this).id == '#dinner'){
+		$('#target').load('/dinner-menu.html');
+	} else if ($(this).id == '#bar'){
+		$('#target').load('/bar-menu.html');
+	} else if ($(this).id == '#catering'){
+		$('#target').load('/catering-menu.html');
+	} else{
+		$('#target').load('/wine-menu.html');
+	}
+ });
 
 });
-
-var link = $('.menu-link').data('link');
-
-console.log(link);
