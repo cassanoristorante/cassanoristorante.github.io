@@ -6,7 +6,8 @@ $(document).ready(function(){
 /* ------ LOAD MENUS ON CLICK ------- */
 
 
-	console.log($.now());
+var time = d.toLocaleTimeString();
+console.log(time);
 
 
 
