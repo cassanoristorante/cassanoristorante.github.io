@@ -12,7 +12,7 @@ var time = d.toLocaleTimeString();
 console.log(time);
 
 
-$('#lunck').click(function(){
+$('#lunch').click(function(){
 	$('#target').load('/lunch-menu.html');
 
 	});
