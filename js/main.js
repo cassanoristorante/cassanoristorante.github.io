@@ -30,6 +30,6 @@ $('#lunch').click(function(link){
 
 });
 
-var link = ('.menu-link').data('link');
+var link = $('.menu-link').data('link');
 
 console.log(link);
