@@ -19,17 +19,17 @@ if (time > 16){
 /* ------- LOAD MENUS ON CLICK ------- */
 
 
-$('.menu-link').click(function(link){
+$('.menu-link').click(function(){
 	$('#target').html('');
 	var whichMenu = event.target.id;
-	console.log(link);
-	if (link == 'lunch'){
+	console.log(whichMenu);
+	if (whichMenu == 'lunch'){
 		$('#target').load('/lunch-menu.html');
-	} else if (link == 'dinner'){
+	} else if (whichMenu == 'dinner'){
 		$('#target').load('/dinner-menu.html');
-	} else if (link == 'bar'){
+	} else if (whichMenu == 'bar'){
 		$('#target').load('/bar-menu.html');
-	} else if (link == 'catering'){
+	} else if (whichMenu == 'catering'){
 		$('#target').load('/catering-menu.html');
 	} else{
 		$('#target').load('/wine-menu.html');
