@@ -187,6 +187,7 @@ a:hover {
 	margin:1em;
 	padding:1em;
 	vertical-align: top;
+	float:left;
 }
 
 .menu-category {
