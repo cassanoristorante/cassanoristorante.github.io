@@ -2,6 +2,11 @@
 $(document).ready(function(){
 
 
+$( window ).load( function()
+{
+    $( '#grid' ).masonry( { itemSelector: '.grid-item' } );
+});
+
 
 /* ------ LOAD LUNCH OR DINNER MENU BASED ON TIME OF DAY ------- */
 
@@ -36,10 +41,6 @@ $('.menu-link').click(function(){
 	}
  });
 
-$('#grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 375
-});
+
 
 });
