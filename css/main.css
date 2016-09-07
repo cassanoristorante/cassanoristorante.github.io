@@ -185,8 +185,11 @@ a:hover {
 .grid-item {
 	width:300px;
 	float:left;
-	margin:1em;
 	padding:1em;
+}
+
+.gutter-sizer {
+	width:1em;
 }
 
 .menu-section {
