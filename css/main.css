@@ -180,18 +180,16 @@ a:hover {
 
 .grid-item {
 	width:300px;
-	background-color:white;
-	color:black;
-	border-radius:5px;
-	display:inline-block;
+	float:left;
 	margin:1em;
 	padding:1em;
-	vertical-align: top;
-	float:left;
 }
 
 .menu-section {
-
+	background-color:white;
+	color:black;
+	border-radius:5px;
+	vertical-align: top;
 }
 
 .menu-category {
