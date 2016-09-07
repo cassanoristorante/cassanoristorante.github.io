@@ -2,12 +2,6 @@
 $(document).ready(function(){
 
 
-$( window ).load( function()
-{
-    $( '#grid' ).masonry( { itemSelector: '.grid-item' } );
-});
-
-
 /* ------ LOAD LUNCH OR DINNER MENU BASED ON TIME OF DAY ------- */
 
 var objDate = new Date();
@@ -40,6 +34,11 @@ $('.menu-link').click(function(){
 		$('#target').load('/wine-menu.html');
 	}
  });
+
+$( window ).load( function()
+{
+    $( '#grid' ).masonry( { itemSelector: '.grid-item' } );
+});
 
 
 
