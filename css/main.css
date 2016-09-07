@@ -181,6 +181,14 @@ a:hover {
 	width:100px;
 }
 
+#grid {
+	position:absolute;
+}
+
+.grid-item {
+	width:300px;
+}
+
 .menu-section {
 	background-color:white;
 	color:black;
