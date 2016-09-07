@@ -39,7 +39,7 @@ $('.menu-link').click(function(){
 $('.grid').masonry({
   // options
   itemSelector: '.grid-item',
-  columnWidth: 350
+  columnWidth: 375
 });
 
 });
