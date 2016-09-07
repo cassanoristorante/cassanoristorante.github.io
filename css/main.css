@@ -180,9 +180,6 @@ a:hover {
 
 .grid-item {
 	width:300px;
-}
-
-.menu-section {
 	background-color:white;
 	color:black;
 	border-radius:5px;
@@ -191,6 +188,10 @@ a:hover {
 	padding:1em;
 	vertical-align: top;
 	float:left;
+}
+
+.menu-section {
+
 }
 
 .menu-category {
