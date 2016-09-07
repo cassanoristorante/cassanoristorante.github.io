@@ -35,8 +35,8 @@ $('.menu-link').click(function(){
 	}
  });
 
-$( window ).load( function()
-	{ $('.grid').masonry({
+$(window).on('load', function() {
+	$('.grid').masonry({
   	// options
  	 itemSelector: '.grid-item'
 	});
