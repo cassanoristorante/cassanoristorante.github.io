@@ -183,13 +183,7 @@ a:hover {
 
 
 .grid-item {
-	width:300px;
-	float:left;
-	padding:1em;
-}
-
-.gutter-sizer {
-	width:1em;
+	
 }
 
 .menu-section {
@@ -197,6 +191,9 @@ a:hover {
 	color:black;
 	border-radius:5px;
 	vertical-align: top;
+	width:300px;
+	float:left;
+	padding:1em;
 }
 
 .menu-category {
