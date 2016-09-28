@@ -216,6 +216,7 @@ a:hover {
 	.host-message {
 		width:100%;
 		margin: 3em 0 1em 0;
+		padding:1em;
 	}
 }
 
