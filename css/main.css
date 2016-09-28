@@ -159,6 +159,8 @@ a:hover {
 	max-width:500px;
 }
 
+/* -------- COMING SOON PAGE -------- */
+
 
 .bullet-thing {
 	text-align:center; 
@@ -181,6 +183,16 @@ a:hover {
 	.bullet {
 		font-size:.5em;
 	}
+}
+
+.host-message {
+	background-color:white;
+	color:black;
+	border-radius:5px;
+	vertical-align: top;
+	width:500px;
+	padding:1em;
+	margin:1em auto;
 }
 
 /* ------- MAIN CONTENT -------- */
