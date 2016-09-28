@@ -45,7 +45,6 @@ body {
 
 p {
 	text-align:left;
-	text-indent:10px;
 }
 
 .container {
@@ -98,6 +97,10 @@ a:hover {
 
 .al-right {
 	text-align:right;
+}
+
+.indent {
+	text-indent:15px;
 }
 
 
@@ -200,7 +203,7 @@ a:hover {
 	border-radius:5px;
 	width:600px;
 	padding:1em 2em;
-	margin:2em auto 1em auto;
+	margin:3em auto 1em auto;
 }
 
 @media(max-width:720px){
