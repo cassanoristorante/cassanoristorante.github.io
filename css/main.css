@@ -173,7 +173,7 @@ a:hover {
 
 @media(max-width:500px) {
 	.main-logo {
-		max-width:300px;
+		width:100%;
 	}
 	.bullet-thing {
 		font-size:2em;
