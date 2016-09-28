@@ -164,7 +164,7 @@ a:hover {
 
 .bullet {
 	color:black;
-	font-size:2em;
+	font-size:.8em;
 }
 
 @media(max-width:500px) {
@@ -175,7 +175,7 @@ a:hover {
 		font-size:2em;
 	}
 	.bullet {
-		font-size:1.5em;
+		font-size:.5em;
 	}
 }
 
