@@ -93,6 +93,10 @@ a:hover {
 	font-family:robotoBold;
 }
 
+.burgundy {
+	color:#6B3333;
+}
+
 .al-left {
 	text-align:left;
 }
@@ -222,6 +226,7 @@ a:hover {
 
 .coming-soon {
 	width:400px;
+	margin:0 auto;
 }
 
 /* ------- MAIN CONTENT -------- */
