@@ -198,10 +198,15 @@ a:hover {
 	background-color:white;
 	color:black;
 	border-radius:5px;
-	vertical-align: top;
 	width:600px;
 	padding:1em 2em;
 	margin:2em auto 1em auto;
+}
+
+@media(max-width:720px){
+	.host-message {
+		width:100%;
+	}
 }
 
 /* ------- MAIN CONTENT -------- */
