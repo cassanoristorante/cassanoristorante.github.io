@@ -155,9 +155,19 @@ a:hover {
 	max-width:500px;
 }
 
+
+.bullet-thing {
+	text-align:center; 
+	color:#6B3333; 
+	font-size:3em;
+}
+
 @media(max-width:500px) {
 	.main-logo {
 		max-width:300px;
+	}
+	.bullet-thing {
+		font-size:1.5em;
 	}
 }
 
