@@ -123,14 +123,14 @@ a:hover {
   clear:right;
 }
 
-/* @media(max-width:?){
+@media(max-width:870px){
 	.left-col {
 		float:none;
 	}
 	.right-col {
 		float:none;
 	}
-} */
+}
 
 
 /*------ HEADER / NAVBAR ------*/
