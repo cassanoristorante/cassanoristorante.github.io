@@ -135,8 +135,8 @@ a:hover {
 	}
 
 	.menu-section {
-		display:block;
-		margin:1em auto;
+		display:block!important;
+		margin:1em auto!important;
 	}
 }
 
