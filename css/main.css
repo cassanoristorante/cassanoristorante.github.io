@@ -115,10 +115,12 @@ a:hover {
 
 .left-col {
   float:left;
+  clear:left;
 }
 
 .right-col {
   float:right;
+  clear:right;
 }
 
 /* @media(max-width:?){
