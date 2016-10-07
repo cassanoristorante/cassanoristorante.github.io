@@ -126,10 +126,12 @@ a:hover {
 @media(max-width:870px){
 	.left-col {
 		float:none;
+		clear:none;
 	}
 
 	.right-col {
 		float:none;
+		clear:none;
 	}
 
 	.menu-section {
