@@ -172,6 +172,12 @@ a:hover {
 	margin:2.5em 0 0 9em;
 }
 
+@media(max-width:1100px){
+	.navbar {
+		margin-left:5em;
+	}
+}
+
 .main-nav li {
 	display:inline-block;
 }
@@ -188,6 +194,7 @@ a:hover {
 .social-media {
 	float:right;
 	padding:30px;
+	padding-left:0;
 }
 
 .social-link {
