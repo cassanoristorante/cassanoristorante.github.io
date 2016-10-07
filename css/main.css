@@ -178,6 +178,12 @@ a:hover {
 	}
 }
 
+@media(max-width:1000px){
+	.navbar {
+		margin-left:3em;
+	}
+}
+
 .main-nav li {
 	display:inline-block;
 }
