@@ -138,6 +138,10 @@ a:hover {
 		display:block!important;
 		margin:1em auto!important;
 	}
+
+	.masonry {
+		width:100%!important;
+	}
 }
 
 
