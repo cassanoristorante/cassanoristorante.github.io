@@ -305,6 +305,13 @@ a:hover {
 	margin:1em 0;
 }
 
+@media(max-width:400px){
+	.menu-section {
+		width:100%;
+		margin:1em .25em;
+	}
+}
+
 .menu-category {
 	font-size:1.5em;
 	color:#6B3333;
