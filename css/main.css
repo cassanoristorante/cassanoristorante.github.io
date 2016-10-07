@@ -236,6 +236,23 @@ a:hover {
 	}
 }
 
+
+/* -------- MOBILE NAVIGATION --------*/
+
+.mobile-nav {
+	display:none;
+	position:fixed;
+	list-style: none;
+	height:100%;
+	width:50%;
+	background-color:white;
+}
+
+.m-nav-link {
+	display:block;
+	color:#6B3333;
+}
+
 /* -------- COMING SOON PAGE -------- */
 
 
