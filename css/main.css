@@ -127,8 +127,14 @@ a:hover {
 	.left-col {
 		float:none;
 	}
+
 	.right-col {
 		float:none;
+	}
+
+	.menu-section {
+		display:block;
+		margin:1em auto;
 	}
 }
 
