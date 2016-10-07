@@ -113,6 +113,23 @@ a:hover {
 	text-indent:15px;
 }
 
+.left-col {
+  float:left;
+}
+
+.right-col {
+  float:right;
+}
+
+/* @media(max-width:?){
+	.left-col {
+		float:none;
+	}
+	.right-col {
+		float:none;
+	}
+} */
+
 
 /*------ HEADER / NAVBAR ------*/
 
@@ -245,9 +262,7 @@ a:hover {
 }
 
 .masonry {
-	column-count:2;
-	column-gap:1em;
-	width: 80%;
+	width: 90%;
     margin: 2em auto 0 auto;
 }
 
@@ -264,10 +279,11 @@ a:hover {
 .menu-section {
 	background-color:white;
 	color:black;
+  	display:inline-block;
 	border-radius:5px;
 	vertical-align: top;
 	display:inline-block;
-	width:100%;
+	width:40%;
 	padding:1em;
 	margin:1em;
 }
