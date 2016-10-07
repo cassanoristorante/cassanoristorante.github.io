@@ -253,14 +253,16 @@ a:hover {
 	}
 
 	.social-media {
-		float:left;
-		margin-left:4em;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 	.hamburger {
 		display:inline-block;
 		float:right;
-		margin-right:1em;
+		margin: .5em;
+    	padding: .5em;
 	}
 }
 
