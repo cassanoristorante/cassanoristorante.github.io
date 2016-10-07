@@ -54,12 +54,6 @@ p {
 	text-align:center;
 }
 
-@media(max-width:1000px) {
-	.container {
-		width:100%;
-	}
-}
-
 .cf {
 	clear:both;
 }
@@ -123,6 +117,12 @@ a:hover {
   clear:right;
 }
 
+@media(max-width:1000px) {
+	.container {
+		width:100%;
+	}
+}
+
 @media(max-width:870px){
 	.left-col {
 		float:none;
@@ -142,6 +142,28 @@ a:hover {
 	.masonry {
 		width:100%!important;
 	}
+}
+
+
+/* -------- MOBILE NAVIGATION --------*/
+
+.hamburger {
+	max-width:80px;
+	display:none;
+}
+
+.mobile-nav {
+	display:none;
+	position:fixed;
+	list-style: none;
+	height:100%;
+	width:50%;
+	background-color:white;
+}
+
+.m-nav-link {
+	display:block;
+	color:#6B3333;
 }
 
 
@@ -234,24 +256,14 @@ a:hover {
 		float:left;
 		margin-left:4em;
 	}
+
+	.hamburger {
+		display:inline-block;
+		float:right;
+		margin-right:1em;
+	}
 }
 
-
-/* -------- MOBILE NAVIGATION --------*/
-
-.mobile-nav {
-	display:none;
-	position:fixed;
-	list-style: none;
-	height:100%;
-	width:50%;
-	background-color:white;
-}
-
-.m-nav-link {
-	display:block;
-	color:#6B3333;
-}
 
 /* -------- COMING SOON PAGE -------- */
 
