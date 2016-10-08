@@ -190,7 +190,8 @@ a:hover {
 }
 
 .navbar {
-	margin:2.5em 0 10% 0;
+	margin-top:2.5em;
+	margin-left:12%;
 }
 
 .main-nav li {
@@ -234,6 +235,18 @@ a:hover {
 	max-width:500px;
 }
 
+@media(max-width:1100px){
+	.navbar {
+		margin-left:8%;
+	}
+}
+
+
+@media(max-width:1000px){
+	.navbar {
+		margin-left:5%;
+	}
+}
 
 @media(max-width:950px){
 	.navbar {
