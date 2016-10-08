@@ -146,6 +146,10 @@ a:hover {
 	.main-logo {
 		display:none;
 	}
+
+	.menu-nav {
+		max-width:500px;
+	}
 }
 
 
@@ -365,7 +369,7 @@ a:hover {
 
 .menu-nav {
 	text-align:center;
-	margin-top:1em;
+	margin: 1em auto 0 auto;
 }
 
 .masonry {
