@@ -201,8 +201,11 @@ a:hover {
 	z-index:1000;
 }
 
-.site-logo {
+.site-title {
 	max-width:165px;
+}
+
+.site-logo {
 	float:left;
     margin: -.25em 0 0 .5em;
 }
