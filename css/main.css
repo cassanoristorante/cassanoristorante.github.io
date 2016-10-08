@@ -389,6 +389,12 @@ a:hover {
 	margin:.5em 1em;
 }
 
+.menu-link:hover {
+	background-color:#6B3333;
+	color:white;
+	border-color:white;
+}
+
 .menu-section {
 	background-color:white;
 	color:black;
