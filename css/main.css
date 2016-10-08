@@ -283,7 +283,7 @@ a:hover {
 
 @media(min-width:950px){
 	.hamburger, .close, .mobile-nav {
-		display:none;
+		display:none!important;
 	}
 }
 
