@@ -164,6 +164,7 @@ a:hover {
 	right:0;
 	top:80px;
 	background-color:white;
+	border:1px solid #6B3333;
 }
 
 .m-nav-link {
@@ -175,6 +176,7 @@ a:hover {
 .m-nav-link:hover {
 	background-color:#6B3333;
 	color:white;
+	opacity:1;
 }
 
 
