@@ -192,6 +192,7 @@ a:hover {
 .navbar {
 	margin-top:2.5em;
 	margin-left:12%;
+	display:inline-block;
 }
 
 .main-nav li {
