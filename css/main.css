@@ -190,8 +190,8 @@ a:hover {
 }
 
 .navbar {
-	float:left;
-	margin:2.5em 0 0 9em;
+	display:inline-block;
+	margin-left:50%;
 }
 
 .main-nav li {
