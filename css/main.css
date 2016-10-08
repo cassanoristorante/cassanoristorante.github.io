@@ -222,7 +222,7 @@ a:hover {
 }
 
 .social-link {
-	padding: 0 .2em;
+	margin: 0 .2em;
 }
 
 .banner-contain {
@@ -280,7 +280,7 @@ a:hover {
 		max-width:60px;
 		margin:1em!important;
 	}
-	.social-media {
+	.social-link {
 		max-width:32px;
 	}
 }
