@@ -210,8 +210,9 @@ a:hover {
 
 .social-media {
 	float:right;
-	padding:30px;
+	padding-right:30px;
 	padding-left:0;
+	margin-top:1.5em;
 }
 
 .social-link {
@@ -274,10 +275,7 @@ a:hover {
 	}
 	.hamburger {
 		max-width:60px;
-		margin:.7em!important;
-	}
-	.social-media {
-		padding:23px;
+		margin:1em!important;
 	}
 }
 
