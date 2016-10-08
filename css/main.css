@@ -147,9 +147,12 @@ a:hover {
 
 /* -------- MOBILE NAVIGATION --------*/
 
-.hamburger {
+.hamburger, .close {
 	max-width:80px;
 	display:none;
+	float:right;
+	margin: .5em;
+    padding: .5em;
 }
 
 .mobile-nav {
@@ -265,9 +268,6 @@ a:hover {
 
 	.hamburger {
 		display:inline-block;
-		float:right;
-		margin: .5em;
-    	padding: .5em;
 	}
 }
 
@@ -276,7 +276,7 @@ a:hover {
 		max-width:135px;
 		margin:.25em;
 	}
-	.hamburger {
+	.hamburger, .close {
 		max-width:60px;
 		margin:1em!important;
 	}
