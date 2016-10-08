@@ -221,9 +221,11 @@ a:hover {
 	margin-top:1.5em;
 }
 
-.social-link {
+.social-logo {
 	margin: 0 .2em;
+	max-width:38px;
 }
+
 
 .banner-contain {
 	width:100%;
@@ -280,7 +282,7 @@ a:hover {
 		max-width:60px;
 		margin:1em!important;
 	}
-	.social-link {
+	.social-logo {
 		max-width:32px;
 	}
 }
