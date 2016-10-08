@@ -267,6 +267,20 @@ a:hover {
 	}
 }
 
+@media(max-width:500px){
+	.site-logo {
+		max-width:135px;
+		margin:.25em;
+	}
+	.hamburger {
+		max-width:60px;
+		margin:.7em!important;
+	}
+	.social-media {
+		padding:23px;
+	}
+}
+
 
 /* -------- COMING SOON PAGE -------- */
 
