@@ -158,12 +158,15 @@ a:hover {
 	list-style: none;
 	height:100%;
 	width:50%;
+	right:0;
+	top:80px;
 	background-color:white;
 }
 
 .m-nav-link {
 	display:block;
 	color:#6B3333;
+	padding:1em;
 }
 
 
