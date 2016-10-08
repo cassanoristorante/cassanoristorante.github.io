@@ -172,6 +172,11 @@ a:hover {
 	padding:1em;
 }
 
+.m-nav-link:hover {
+	background-color:#6B3333;
+	color:white;
+}
+
 
 /*------ HEADER / NAVBAR ------*/
 
