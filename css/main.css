@@ -200,7 +200,7 @@ a:hover {
 .site-logo {
 	max-width:165px;
 	float:left;
-    padding-left:.5em;
+    margin: -.25em 0 0 .5em;
 }
 
 .navbar {
