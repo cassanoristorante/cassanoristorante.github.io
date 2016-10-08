@@ -281,6 +281,12 @@ a:hover {
 	}
 }
 
+@media(min-width:950px){
+	.hamburger, .close, .mobile-nav {
+		display:none;
+	}
+}
+
 @media(max-width:500px){
 	.site-logo {
 		max-width:135px;
