@@ -103,6 +103,14 @@ a:hover {
 	text-align:right;
 }
 
+.fl-left {
+	float:left;
+}
+
+.fl-right {
+	float:right;
+}
+
 .biggest {
 	font-size:3.5em;
 }
@@ -113,6 +121,10 @@ a:hover {
 
 .medium {
 	font-size:1.5em;
+}
+
+.smaller {
+	font-size:.8em;
 }
 
 .indent {
