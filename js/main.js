@@ -62,7 +62,13 @@ $('.m-nav-link').click(function(){
 
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
-$(".site-logo").hide(); // hide the fixed navbar initially
+  // hide the fixed navbar initially, only if the scroll top is above the main logo
+
+ if($(window).scrollTop() < (topofDiv)){
+       $(".site-logo").hide();
+    }
+    else{
+    }
 
 var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
 
