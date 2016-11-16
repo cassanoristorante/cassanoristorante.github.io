@@ -15,8 +15,7 @@ if (time < 16){
 };
 
 
-/* ------- LOAD MENUS ON CLICK ------- */
-
+// LOAD MENUS ON CLICK
 
 $('.menu-link').click(function(){
 	$('#target').html('');
@@ -58,6 +57,23 @@ $('.m-nav-link').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
 	$('.close').css('display', 'none');
 	$('.hamburger').css('display', 'inline-block');
+});
+
+
+// NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
+
+$(".site-title").hide(); // hide the fixed navbar initially
+
+var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
+var height = $(".main-logo-holder").outerHeight(); //gets height of header
+
+$(window).scroll(function(){
+    if($(window).scrollTop() > (topofDiv + height)){
+       $("#header-2").show();
+    }
+    else{
+       $("#header-2").hide();
+    }
 });
 
 
