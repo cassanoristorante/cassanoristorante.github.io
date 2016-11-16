@@ -69,10 +69,10 @@ var height = $(".main-logo-holder").outerHeight(); //gets height of header
 
 $(window).scroll(function(){
     if($(window).scrollTop() > (topofDiv + height)){
-       $("#header-2").show();
+       $(".site-title").show();
     }
     else{
-       $("#header-2").hide();
+       $(".site-title").hide();
     }
 });
 
