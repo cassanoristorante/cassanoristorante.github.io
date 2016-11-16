@@ -68,11 +68,11 @@ var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
 var height = $(".main-logo-holder").outerHeight(); //gets height of header
 
 $(window).scroll(function(){
-    if($(window).scrollTop() > (topofDiv + height)){
-       $(".site-logo").show(800);
+    if($(window).scrollTop() > (topofDiv)){
+       $(".site-logo").fadeIn(500);
     }
     else{
-       $(".site-logo").hide(800);
+       $(".site-logo").fadeOut(500);
     }
 });
 
