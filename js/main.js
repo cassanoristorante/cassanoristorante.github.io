@@ -62,17 +62,17 @@ $('.m-nav-link').click(function(){
 
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
-$(".site-title").hide(); // hide the fixed navbar initially
+$(".site-logo").hide(); // hide the fixed navbar initially
 
 var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
 var height = $(".main-logo-holder").outerHeight(); //gets height of header
 
 $(window).scroll(function(){
     if($(window).scrollTop() > (topofDiv + height)){
-       $(".site-title").show();
+       $(".site-logo").show(800);
     }
     else{
-       $(".site-title").hide();
+       $(".site-logo").hide(800);
     }
 });
 
