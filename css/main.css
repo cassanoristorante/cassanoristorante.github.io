@@ -103,6 +103,18 @@ a:hover {
 	text-align:right;
 }
 
+.biggest {
+	font-size:3.5em;
+}
+
+.big {
+	font-size:2.5em;
+}
+
+.medium {
+	font-size:1.5em;
+}
+
 .indent {
 	text-indent:15px;
 }
