@@ -65,17 +65,20 @@ $('.m-nav-link').click(function(){
 $(".site-logo").hide(); // hide the fixed navbar initially
 
 var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
-var height = $(".main-logo-holder").outerHeight(); //gets height of header
 
-$(window).scroll(function(){
+function slider() {
     if($(window).scrollTop() > (topofDiv)){
-       $(".site-logo").fadeIn(500);
+       $(".site-logo").fadeIn(600);
     }
     else{
-       $(".site-logo").fadeOut(500);
+       $(".site-logo").fadeOut(600);
     }
+}
+
+$(window).scroll(function () {
+    slider();
 });
 
-
+slider();
 
 });
