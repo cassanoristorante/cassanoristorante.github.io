@@ -532,11 +532,11 @@ a:hover {
 }
 
 .about-text {
-	padding:0 2.5em;
+	padding:1em 2.5em;
 	height:inherit;	
-	-webkit-columns: 200px 3; /* Chrome, Safari, Opera */
-    -moz-columns: 200px 3; /* Firefox */
-    columns: 200px 3;
+	-webkit-columns: 30% 3; /* Chrome, Safari, Opera */
+    -moz-columns: 30% 3; /* Firefox */
+    columns: 30% 3;
 
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
@@ -545,4 +545,14 @@ a:hover {
     -webkit-column-rule: 2px outset #6B3333; /* Chrome, Safari, Opera */
     -moz-column-rule: 2px outset #6B3333; /* Firefox */
     column-rule: 2px outset #6B3333;
+}
+
+@media(max-width:1000px){
+	.about-text {
+		padding:1em 2em;
+		height:inherit;	
+		-webkit-columns: 45% 2; /* Chrome, Safari, Opera */
+    	-moz-columns: 45% 2; /* Firefox */
+    	columns: 45% 2;
+	}
 }
