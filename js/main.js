@@ -91,7 +91,7 @@ slider();
 // SMOOTH SCROLL FOR SITE NAVIGATION
 
 // Add smooth scrolling to all links
-  $(".nav-link", ".m-nav-link").on('click', function(event) {
+ /*-- $(".nav-link", ".m-nav-link").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -111,7 +111,21 @@ slider();
         window.location.hash = hash;
       });
     } // End if
-  });
+  }); ---*/
+
+  
+  $('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
 
 
 
