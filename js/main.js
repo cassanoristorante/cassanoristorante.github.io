@@ -65,10 +65,9 @@ $('.m-nav-link').click(function(){
   // hide the fixed navbar initially, only if the scroll top is above the main logo
 
  if($(window).scrollTop() < (topofDiv)){
-       $(".site-logo").hide();
+       $(".site-logo").css('display', 'none');
     }
     else{
-    	$(".site-logo").show();
     }
 
 var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
