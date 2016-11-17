@@ -538,9 +538,9 @@ a:hover {
     -moz-columns: 200px 3; /* Firefox */
     columns: 200px 3;
 
-    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 10px; /* Firefox */
-    column-gap: 10px;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
 
     -webkit-column-rule: 2px outset #6B3333; /* Chrome, Safari, Opera */
     -moz-column-rule: 2px outset #6B3333; /* Firefox */
