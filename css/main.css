@@ -567,7 +567,7 @@ a:hover {
 	}
 }
 
-@media(max-width:750px){
+@media(max-width:550px){
 	.about-text {
 		width:100%;
 		height:inherit;	
