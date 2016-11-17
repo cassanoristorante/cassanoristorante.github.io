@@ -560,6 +560,7 @@ a:hover {
 @media(max-width:750px){
 	.about-text {
 		width:80%;
+		padding:0;
 		height:inherit;	
 		-webkit-columns: 500px 1; /* Chrome, Safari, Opera */
     	-moz-columns: 500px 1; /* Firefox */
