@@ -68,6 +68,7 @@ $('.m-nav-link').click(function(){
        $(".site-logo").hide();
     }
     else{
+    	$(".site-logo").show();
     }
 
 var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
@@ -113,7 +114,7 @@ slider();
     } // End if
   }); ---*/
 
-  
+
   $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     var target = $(this.hash);
