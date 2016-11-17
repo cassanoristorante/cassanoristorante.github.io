@@ -247,6 +247,7 @@ a:hover {
 	float:left;
     margin: -.25em 0 0 .5em;
     max-width:165px;
+    display:none;
 }
 
 .navbar {
