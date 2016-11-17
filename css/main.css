@@ -534,6 +534,7 @@ a:hover {
 .about-text {
 	padding:1em 2.5em;
 	height:inherit;	
+	margin:0 auto;
 	-webkit-columns: 200px 3; /* Chrome, Safari, Opera */
     -moz-columns: 200px 3; /* Firefox */
     columns: 200px 3;
