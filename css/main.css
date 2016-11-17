@@ -550,7 +550,6 @@ a:hover {
 @media(max-width:1000px){
 	.about-text {
 		padding:1em 2em;
-		height:inherit;	
 		-webkit-columns: 300px 2; /* Chrome, Safari, Opera */
     	-moz-columns: 300px 2; /* Firefox */
     	columns: 300px 2;
@@ -559,7 +558,7 @@ a:hover {
 
 @media(max-width:750px){
 	.about-text {
-		padding:1em 2em;
+		width:90%;
 		height:inherit;	
 		-webkit-columns: 500px 1; /* Chrome, Safari, Opera */
     	-moz-columns: 500px 1; /* Firefox */
