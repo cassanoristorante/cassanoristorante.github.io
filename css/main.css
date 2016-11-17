@@ -345,6 +345,16 @@ a:hover {
 	}
 }
 
+@media(max-width:300px){
+	.social-logo {
+		max-width:28px;
+	}
+
+	.site-logo {
+		max-width:130px;
+	}
+}
+
 
 /* -------- COMING SOON PAGE -------- */
 
