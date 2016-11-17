@@ -530,3 +530,9 @@ a:hover {
 	background-color:white;
 	min-height:400px;
 }
+
+.about-text {
+	-webkit-columns: 200px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 200px 3; /* Firefox */
+    columns: 200px 3;
+}
