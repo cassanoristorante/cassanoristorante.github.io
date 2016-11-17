@@ -534,9 +534,9 @@ a:hover {
 .about-text {
 	padding:1em 2.5em;
 	height:inherit;	
-	-webkit-columns: 30% 3; /* Chrome, Safari, Opera */
-    -moz-columns: 30% 3; /* Firefox */
-    columns: 30% 3;
+	-webkit-columns: 200px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 200px 3; /* Firefox */
+    columns: 200px 3;
 
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
@@ -551,8 +551,8 @@ a:hover {
 	.about-text {
 		padding:1em 2em;
 		height:inherit;	
-		-webkit-columns: 45% 2; /* Chrome, Safari, Opera */
-    	-moz-columns: 45% 2; /* Firefox */
-    	columns: 45% 2;
+		-webkit-columns: 300px 2; /* Chrome, Safari, Opera */
+    	-moz-columns: 300px 2; /* Firefox */
+    	columns: 300px 2;
 	}
 }
