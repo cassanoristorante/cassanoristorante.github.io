@@ -556,3 +556,13 @@ a:hover {
     	columns: 300px 2;
 	}
 }
+
+@media(max-width:750px){
+	.about-text {
+		padding:1em 2em;
+		height:inherit;	
+		-webkit-columns: 500px 1; /* Chrome, Safari, Opera */
+    	-moz-columns: 500px 1; /* Firefox */
+    	columns: 500px 1;
+	}
+}
