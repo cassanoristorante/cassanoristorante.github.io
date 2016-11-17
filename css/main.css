@@ -521,3 +521,12 @@ a:hover {
 		line-height:1.2em;
 	}
 }
+
+
+/*----- ABOUT PAGE -----*/
+
+.about-section{
+	width:100%;
+	background-color:white;
+	min-height:400px;
+}
