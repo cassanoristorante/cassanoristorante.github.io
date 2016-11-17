@@ -565,3 +565,11 @@ a:hover {
     	columns: 500px 1;
 	}
 }
+
+@media(max-width:750px){
+	.about-text {
+		width:100%;
+		height:inherit;	
+		padding:1em;
+	}
+}
