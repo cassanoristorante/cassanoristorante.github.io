@@ -120,7 +120,7 @@ slider();
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     var target = $(this.hash);
 
-    if ($(this).offset().top - target.offset().top > '600' || $(this).offset().top - target.offset().top < "-600"){
+    if ($(this).offset().top - target.offset().top > '800' || $(this).offset().top - target.offset().top < "-800"){
     	var scrollSpeed = 1500;
     } else {
     	var scrollSpeed = 1000;
