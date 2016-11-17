@@ -516,4 +516,7 @@ a:hover {
 	.add-on-contain {
 		padding:0 .75em;
 	}
+	#cateringHead {
+		line-height:1.2em;
+	}
 }
