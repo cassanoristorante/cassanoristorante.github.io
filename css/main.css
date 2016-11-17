@@ -115,6 +115,10 @@ a:hover {
 	font-size:3.5em;
 }
 
+.bigger {
+	font-size:3em;
+}
+
 .big {
 	font-size:2.5em;
 }
@@ -485,7 +489,7 @@ a:hover {
 
 .catering-box {
   background-color:white;
-  width:400px;
+  width:450px;
   margin:0 auto;
   border-radius:5px;
   padding:1em;
