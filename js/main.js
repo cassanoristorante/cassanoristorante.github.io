@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 $('.site-title').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
-};
+});
 
 /* ------ LOAD LUNCH OR DINNER MENU BASED ON TIME OF DAY ------- */
 
