@@ -2,6 +2,12 @@
 $(document).ready(function(){
 
 
+// CASSANO LINK ONCLICK SCROLL TO TOP
+
+$('.site-title').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+};
+
 /* ------ LOAD LUNCH OR DINNER MENU BASED ON TIME OF DAY ------- */
 
 var objDate = new Date();
