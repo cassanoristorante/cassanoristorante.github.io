@@ -584,6 +584,7 @@ a:hover {
 	background-color:white;
 	min-height:375px;
 	clear:both;
+	position:relative;
 }
 
 .footerhead {
