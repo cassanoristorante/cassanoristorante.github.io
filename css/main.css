@@ -581,7 +581,8 @@ a:hover {
 /*-----FOOTER-----*/
 
 .site-footer {
-	background-color:white;
+	background-color:#6B3333;
+	color:white;
 	min-height:375px;
 	clear:both;
 	position:relative;
@@ -633,8 +634,4 @@ a:hover {
 
 .number {
 	font-size:1.5em;
-}
-
-#lower {
-	margin-top:5em;
 }
