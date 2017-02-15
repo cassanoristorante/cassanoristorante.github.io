@@ -576,3 +576,59 @@ a:hover {
 		padding:1em;
 	}
 }
+
+
+/*-----FOOTER-----*/
+
+.site-footer {
+	background-color:white;
+	min-height:375px;
+	clear:both;
+}
+
+.footerhead {
+	font-family:robotoBold;
+	font-size:1.5em;
+	margin-bottom:1em;
+}
+
+.foot-contain {
+	width:100%;
+	text-align:center;
+}
+
+.third {
+	font-family:robotoRegular!important;
+	padding: 1.5em 0 .5em 0;
+	display:block;
+	height:350px;
+}
+
+
+
+@media(min-width:950px){
+	.third {
+		width:33%;
+		float:left;
+	}
+}
+
+.hours {
+	display:block;
+	max-width:300px;
+	margin:0 auto;
+}
+
+.day {
+	float:left;
+	text-align:left;
+}
+
+.time {
+	float:right;
+	text-align:right;
+}
+
+.number {
+	font-size:1.5em;
+}
