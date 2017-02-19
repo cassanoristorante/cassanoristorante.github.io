@@ -443,6 +443,12 @@ a:hover {
 	margin:.5em 1em;
 }
 
+.menu-link:active, .activated {
+	background-color:#6B3333;
+	color:white;
+	opacity:1;
+}
+
 .menu-link:hover {
 	background-color:#6B3333;
 	color:white;
