@@ -270,7 +270,7 @@ a:hover {
 }
 
 .nav-link:active, .activate {
-	text-decoration:underline;
+	border-bottom:1px solid black;
 }
 
 .social-media {
