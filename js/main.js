@@ -44,7 +44,7 @@ $('.menu-link').click(function(){
 	} else if (whichMenu == 'catering'){
 		$('#target').load('/catering-menu.html');
     $(this).addClass('activated');
-    $$(this).siblings().not(this).removeClass('activated');
+    $(this).siblings().not(this).removeClass('activated');
 	} else{
 		$('#target').load('/wine-menu.html');
     $(this).addClass('activated');
