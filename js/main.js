@@ -138,11 +138,15 @@ slider();
       return false;
     }
   }
-  $(this).addClass('activate');
-  $(this).siblings().not(this).removeClass('activate');
 
 });
 
+// ACTIVATE NAV LINKS ON CLICK
+
+$('.nav-link').click(function() {
+  $(this).addClass('activate');
+  $(this).siblings().not(this).removeClass('activate');
+});
 
 
 });
