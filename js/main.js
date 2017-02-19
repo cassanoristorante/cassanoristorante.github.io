@@ -17,11 +17,9 @@ console.log(time);
 if (time < 16){
 	$('#target').load('/lunch-menu.html');
   $(this).addClass('activated');
-  $('menu-nav').children().not(this).removeClass('activated');
 } else if (time >= 16){
 	$('#target').load('/dinner-menu.html');
   $(this).addClass('activated');
-  $('menu-nav').children().not(this).removeClass('activated');
 };
 
 
@@ -34,23 +32,23 @@ $('.menu-link').click(function(){
 	if (whichMenu == 'lunch'){
 		$('#target').load('/lunch-menu.html');
     $(this).addClass('activated');
-    $('menu-nav').children().not(this).removeClass('activated');
+    $('menu-nav').children().not('#lunch').removeClass('activated');
 	} else if (whichMenu == 'dinner'){
 		$('#target').load('/dinner-menu.html');
     $(this).addClass('activated');
-    $('menu-nav').children().not(this).removeClass('activated');
+    $('menu-nav').children().not('#dinner').removeClass('activated');
 	} else if (whichMenu == 'bar'){
 		$('#target').load('/bar-menu.html');
     $(this).addClass('activated');
-    $('menu-nav').children().not(this).removeClass('activated');
+    $('menu-nav').children().not('#bar').removeClass('activated');
 	} else if (whichMenu == 'catering'){
 		$('#target').load('/catering-menu.html');
     $(this).addClass('activated');
-    $('menu-nav').children().not(this).removeClass('activated');
+    $('menu-nav').children().not('#catering').removeClass('activated');
 	} else{
 		$('#target').load('/wine-menu.html');
     $(this).addClass('activated');
-    $('menu-nav').children().not(this).removeClass('activated');
+    $('menu-nav').children().not('#wine').removeClass('activated');
 	}
  });
 
