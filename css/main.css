@@ -269,6 +269,10 @@ a:hover {
 	letter-spacing:1px;
 }
 
+.nav-link:active, .activate {
+	text-decoration:underline;
+}
+
 .social-media {
 	float:right;
 	padding-right:30px;

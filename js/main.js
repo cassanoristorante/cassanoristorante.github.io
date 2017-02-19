@@ -78,6 +78,14 @@ $('.m-nav-link').click(function(){
 });
 
 
+// ACTIVE STATE TRIGGER FOR NAV LINKS
+
+$(window).scroll(function(){
+  if($(window).scrollTop() == 
+})
+
+
+
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
   // hide the fixed navbar initially, only if the scroll top is above the main logo
@@ -130,6 +138,9 @@ slider();
       return false;
     }
   }
+  $(this).addClass('activate');
+  $(this).siblings().not(this).removeClass('activated');
+
 });
 
 
