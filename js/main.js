@@ -143,10 +143,10 @@ slider();
 
 // ACTIVATE NAV LINKS ON CLICK
 
-$('.nav-link').click(function() {
-  $(this).addClass('activate');
-  $('.nav-link').not(this).removeClass('activate');
-});
+//$('.nav-link').click(function() {
+  //$(this).addClass('activate');
+ // $('.nav-link').not(this).removeClass('activate');
+//});
 
 // ACTIVATE NAV LINKS ON SCROLL
 
