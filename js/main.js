@@ -80,9 +80,9 @@ $('.m-nav-link').click(function(){
 
 // ACTIVE STATE TRIGGER FOR NAV LINKS
 
-$(window).scroll(function(){
-  if($(window).scrollTop() == 
-})
+// $(window).scroll(function(){
+//   if($(window).scrollTop() == 
+// })
 
 
 
