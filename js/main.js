@@ -139,7 +139,7 @@ slider();
     }
   }
   $(this).addClass('activate');
-  $(this).siblings().not(this).removeClass('activated');
+  $(this).siblings().not(this).removeClass('activate');
 
 });
 
