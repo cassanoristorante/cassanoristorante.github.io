@@ -302,7 +302,7 @@ a:hover {
 	text-align:center;
 }
 .main-logo {
-	max-width:500px;
+	max-width:500px; 
 }
 
 @media(max-width:1100px){
