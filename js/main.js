@@ -150,7 +150,7 @@ slider();
 
 // ACTIVATE NAV LINKS ON SCROLL
 
-    var aChildren = $("nav li").children(); // find the a children of the list items
+    var aChildren = $(".main-nav li").children(); // find the a children of the list items
     var aArray = []; // create the empty aArray
     for (var i=0; i < aChildren.length; i++) {    
         var aChild = aChildren[i];
