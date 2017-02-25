@@ -227,6 +227,19 @@ a:hover {
 
 /*------ HEADER / NAVBAR ------*/
 
+.bg {
+	/* The image used */
+    background-image: url("/images/mainimage.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header-bar {
 	position:fixed;
 	height: 80px;
