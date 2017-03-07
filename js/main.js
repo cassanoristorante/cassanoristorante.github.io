@@ -99,6 +99,8 @@ $(window).scroll(function() {
        $(button).css('visibility', 'visible');
    } else if (wS > bT){
        $(button).css('visibility', 'visible');
+   } else {
+       $(button).css('visibility', 'visible');
    }
 });
 
