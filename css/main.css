@@ -413,7 +413,7 @@ a:hover {
 	opacity:1;
 }
 
-.menu-button {
+.menus-button {
 	visibility:hidden;
 	opacity:.6;
 	position:fixed;
@@ -424,7 +424,7 @@ a:hover {
 	max-width:150px;
 }
 
-.menu-button:hover{
+.menus-button:hover{
 	opacity:1;
 }
 
