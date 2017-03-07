@@ -87,6 +87,8 @@ $('.m-nav-link').click(function(){
 
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
+$(window).scroll(function () {
+
 if($(window).scrollTop() > ('.trigger')){
        $(".menu-button").fadeIn(600);
     }
@@ -96,7 +98,7 @@ if($(window).scrollTop() > ('.trigger')){
     else {
         $(".menu-button").fadeOut(600);
     }
-
+});
 
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
