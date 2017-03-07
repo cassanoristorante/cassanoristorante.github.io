@@ -306,7 +306,7 @@ a:hover {
 	max-width:500px; 
 }
 
-@media(max-width:1140px){
+@media(max-width:1175px){
 	.navbar {
 		margin-left:8%;
 	}
