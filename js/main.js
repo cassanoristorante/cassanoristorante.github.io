@@ -88,13 +88,11 @@ $('.m-nav-link').click(function(){
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
 $(window).scroll(function() {
-   var hT1 = $('#trigger').offset().top,
-       hH1 = $('#trigger').outerHeight(),
-       hT2 = $('#trigger2').offset().top,
-       hH2 = $('#trigger2').outerHeight(),
+   var hT = $('#target').offset().top,
+       hH = $('#target').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
-   if (wS > (hT1+hH1-wH)){
+   if (wS > (hT+hH-wH)){
        $(".menu-button").fadeIn(500);
    }
 });
