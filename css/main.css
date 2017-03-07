@@ -334,7 +334,7 @@ a:hover {
 	}
 }
 
-@media(min-width:1100px){
+@media(min-width:1000px){
 	.hamburger, .close, .mobile-nav {
 		display:none!important;
 	}
