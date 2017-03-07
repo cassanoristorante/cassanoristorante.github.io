@@ -88,15 +88,19 @@ $('.m-nav-link').click(function(){
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
 $(window).scroll(function() {
-   var hT = $('#target').offset().top,
-       hH = $('#target').outerHeight(),
+   var menu = $('#menu'),
+       button = $('.menus-button')
+       hT = $(menu).offset().top,
+       hH = $(menu).outerHeight(),
        wH = $(window).height(),
-       wS = $(this).scrollTop();
+       wS = $(this).scrollTop(),
+       bT = $(menu).position().top + $('menu').outerHeight(true);
    if (wS > (hT+hH-wH)){
-       $(".menus-button").css('visibility', 'visible');
+       $(button).css('visibility', 'visible');
+   } else if (wS > bT){
+       $(button).css('visibility', 'visible');
    }
 });
-
 
 
 
