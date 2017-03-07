@@ -415,7 +415,7 @@ a:hover {
 
 .menus-button {
 	visibility:hidden;
-	opacity:.6;
+	opacity:.6!important;
 	position:fixed;
 	left:1em;
 }
@@ -425,7 +425,7 @@ a:hover {
 }
 
 .menus-button:hover{
-	opacity:1;
+	opacity:1!important;
 }
 
 .menu-section {
