@@ -340,7 +340,7 @@ a:hover {
 	}
 }
 
-@media(min-width:1000px){
+@media(min-width:1075px){
 	.hamburger, .close, .mobile-nav {
 		display:none!important;
 	}
