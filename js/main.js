@@ -89,8 +89,8 @@ $('.m-nav-link').click(function(){
 
 $(window).scroll(function () {
 
-var triggerPos = $('.trigger').offset().top
-var trigger2Pos = $('.trigger2').offset().top
+var triggerPos = $('.trigger').offset().top;
+var trigger2Pos = $('.trigger2').offset().top;
 
 if($(window).scrollTop() > (triggerPos)){
        $(".menu-button").fadeIn(600);
