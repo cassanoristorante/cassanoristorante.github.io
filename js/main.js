@@ -157,15 +157,15 @@ slider();
 
 // ACTIVATE NAV LINKS ON CLICK
 
-$('.nav-link').click(function() {
+$('.nav-link', '.m-nav-link').click(function() {
   $(this).addClass('activate');
-  $('.nav-link').not(this).removeClass('activate');
-  $('.nav-link').data('clicked', true);
+  $('.nav-link', '.m-nav-link').not(this).removeClass('activate');
+  $('.nav-link' '.m-nav-link').data('clicked', true);
 });
 
 // ACTIVATE NAV LINKS ON SCROLL
 
-    var aChildren = $(".main-nav li").children(); // find the a children of the list items
+    var aChildren = $(".main-nav li", '.mobile-nav li').children(); // find the a children of the list items
     var aArray = []; // create the empty aArray
     for (var i=0; i < aChildren.length; i++) {    
         var aChild = aChildren[i];
@@ -174,7 +174,7 @@ $('.nav-link').click(function() {
     } // this for loop fills the aArray with attribute href values
 
     $(window).scroll(function(){
-        if($('.nav-link').data('clicked')) {
+        if($('.nav-link', 'm-nav-link').data('clicked')) {
         
         } else {
             var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page

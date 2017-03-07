@@ -224,6 +224,12 @@ a:hover {
 	opacity:1;
 }
 
+.m-nav-link:active, .activate {
+	background-color:#6B3333;
+	color:white;
+	opacity:1;
+}
+
 
 /*------ HEADER / NAVBAR ------*/
 
