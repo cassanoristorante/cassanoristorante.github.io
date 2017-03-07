@@ -165,7 +165,7 @@ $('.nav-link').click(function() {
 
 $('.m-nav-link').click(function() {
   $(this).addClass('activate');
-  $('.m-nav-link').not(this).removeClass('activate');
+  $('.m-nav-link').not(this).removeClass('activatem');
   $('.m-nav-link').data('clicked', true);
 });
 
@@ -182,7 +182,7 @@ $('.m-nav-link').click(function() {
     } // this for loop fills the aArray with attribute href values
 
     $(window).scroll(function(){
-        if($('.nav-link').data('clicked')) {
+        if($('.nav-link','m-nav-link').data('clicked')) {
         
         } else {
             var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page

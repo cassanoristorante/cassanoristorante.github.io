@@ -224,7 +224,7 @@ a:hover {
 	opacity:1;
 }
 
-.m-nav-link:active, .activate {
+.m-nav-link:active, .activatem {
 	background-color:#6B3333;
 	color:white;
 	opacity:1;
