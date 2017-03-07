@@ -88,8 +88,8 @@ $('.m-nav-link').click(function(){
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
 
-var menu = $('#menu'),
-    button = $('.menus-button');
+var menu = $('#menu');
+var button = $('.menus-button');
 
 $(window).scroll(function() {
     var element_position = $(menu).offset().top
