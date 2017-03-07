@@ -93,7 +93,7 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $(".menu-button").fadeIn(500);
+       $(".menus-button").fadeIn(500);
    }
 });
 
