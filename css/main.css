@@ -378,6 +378,10 @@ a:hover {
 
 /* ------- MENU ------- */
 
+#menu {
+	min-height:1400px;
+}
+
 .menu-nav {
 	text-align:center;
 	margin: 1em auto 0 auto;
