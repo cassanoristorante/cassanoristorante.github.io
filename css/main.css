@@ -415,10 +415,13 @@ a:hover {
 
 .menu-button {
 	visibility:hidden;
-	max-width:150px;
 	opacity:.6;
 	position:fixed;
 	left:1em;
+}
+
+.menus-image {
+	max-width:150px;
 }
 
 .menu-button:hover{
