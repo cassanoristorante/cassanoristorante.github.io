@@ -89,10 +89,13 @@ $('.m-nav-link').click(function(){
 
 $(window).scroll(function () {
 
-if($(window).scrollTop() > ('.trigger')){
+var triggerPos = $('.trigger').offset().top
+var trigger2Pos = $('.trigger2').offset().top
+
+if($(window).scrollTop() > (triggerPos)){
        $(".menu-button").fadeIn(600);
     }
-    else if($(window).scrollTop() > ('.trigger2')){
+    else if($(window).scrollTop() > (trigger2Pos)){
         $(".menu-button").fadeOut(600);
     }
     else {
