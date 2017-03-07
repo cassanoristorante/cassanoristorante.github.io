@@ -102,7 +102,7 @@ $(window).scroll(function() {
     bT = $(menu).position().top + $(menu).outerHeight(true);
     
     if(y_scroll_pos > scroll_pos_test) {
-        $(button).fadeIn(500);
+        $(button).css('visibility', 'visible');
     }
 
 });
