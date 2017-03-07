@@ -313,13 +313,13 @@ a:hover {
 }
 
 
-@media(max-width:1000px){
+@media(max-width:1100px){
 	.navbar {
 		margin-left:5%;
 	}
 }
 
-@media(max-width:950px){
+@media(max-width:1000px){
 	.navbar {
 		display:none;
 	}
@@ -334,7 +334,7 @@ a:hover {
 	}
 }
 
-@media(min-width:950px){
+@media(min-width:1100px){
 	.hamburger, .close, .mobile-nav {
 		display:none!important;
 	}
