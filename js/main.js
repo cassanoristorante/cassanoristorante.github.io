@@ -160,7 +160,7 @@ slider();
 $('.nav-link', '.m-nav-link').click(function() {
   $(this).addClass('activate');
   $('.nav-link', '.m-nav-link').not(this).removeClass('activate');
-  $('.nav-link' '.m-nav-link').data('clicked', true);
+  $('.nav-link', '.m-nav-link').data('clicked', true);
 });
 
 // ACTIVATE NAV LINKS ON SCROLL
