@@ -93,13 +93,13 @@ var triggerPos = $('#trigger').offset().top;
 var trigger2Pos = $('#trigger2').offset().top;
 
 if($(window).scrollTop() > (triggerPos)){
-       $(".menu-button").fadeIn(600);
+       $(".menu-button").css('visibility', 'visible');
     }
     else if($(window).scrollTop() > (trigger2Pos)){
-        $(".menu-button").fadeOut(600);
+        $(".menu-button").css('visibility', 'hidden');
     }
     else {
-        $(".menu-button").fadeOut(600);
+        $(".menu-button").css('visibility', 'hidden');
     }
 });
 
