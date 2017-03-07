@@ -98,9 +98,9 @@ $(window).scroll(function() {
    if (wS > (hT+hH-wH)){
        $(button).css('visibility', 'visible');
    } else if (wS > bT){
-       $(button).css('visibility', 'visible');
+       $(button).css('visibility', 'invisible');
    } else {
-       $(button).css('visibility', 'visible');
+       $(button).css('visibility', 'invisible');
    }
 });
 
