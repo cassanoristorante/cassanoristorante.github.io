@@ -93,10 +93,9 @@ $(window).scroll(function() {
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
-       $(".menus-button").css('visibility,' 'visible');
+       $(".menus-button").css('visibility', 'visible');
    }
 });
-
 
 
 
