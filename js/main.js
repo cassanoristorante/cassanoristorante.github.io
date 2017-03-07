@@ -16,7 +16,6 @@ function fullscreen(){
   jQuery(window).resize(function() {
        fullscreen();         
     });
-});
 
 // CASSANO LINK ONCLICK SCROLL TO TOP
 
