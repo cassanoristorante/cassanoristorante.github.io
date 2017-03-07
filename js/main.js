@@ -220,7 +220,7 @@ $('.m-nav-link').click(function() {
     } // this for loop fills the aArray with attribute href values
 
     $(window).scroll(function(){
-        if($('.nav-link','m-nav-link').data('clicked')) {
+        if($('.nav-link').data('clicked')) {
         
         } else {
             var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
