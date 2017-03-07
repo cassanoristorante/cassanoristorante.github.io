@@ -34,7 +34,7 @@ html {
 
 body {
 	height:100%;
-  	margin:0 auto;
+  	margin:0 0;
   	font-weight: 400;
   	line-height: 1.5;
   	height:100%;
@@ -292,6 +292,11 @@ a:hover {
 	max-width:38px;
 }
 
+#hero {
+	background-image:url(/images/mainimage.jpg);
+  	background-size:cover;
+  	position:relative;
+}
 
 .banner-contain {
 	width:100%;
