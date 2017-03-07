@@ -87,21 +87,37 @@ $('.m-nav-link').click(function(){
 
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
-$(window).scroll(function () {
-
-var triggerPos = $('#trigger').offset().top;
-var trigger2Pos = $('#trigger2').offset().top;
-
-if($(window).scrollTop() > (triggerPos)){
-       $(".menu-button").css('visibility', 'visible');
-    }
-    else if($(window).scrollTop() > (trigger2Pos)){
-        $(".menu-button").css('visibility', 'hidden');
-    }
-    else {
-        $(".menu-button").css('visibility', 'hidden');
-    }
+$(window).scroll(function() {
+   var hT1 = $('#trigger').offset().top,
+       hH1 = $('#trigger').outerHeight(),
+       hT2 = $('#trigger2').offset().top,
+       hH2 = $('#trigger2').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT1+hH1-wH)){
+       $(".menu-button").fadeIn(500);
+   }
 });
+
+
+
+
+
+//$(window).scroll(function () {
+
+//var triggerPos = $('#trigger').offset().top;
+//var trigger2Pos = $('#trigger2').offset().top;
+
+//if($(window).scrollTop() > (triggerPos)){
+  //     $(".menu-button").css('visibility', 'visible');
+  //  }
+  //  else if($(window).scrollTop() > (trigger2Pos)){
+  //      $(".menu-button").css('visibility', 'hidden');
+  //  }
+  //  else {
+  //      $(".menu-button").css('visibility', 'hidden');
+  //  }
+//});
 
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
