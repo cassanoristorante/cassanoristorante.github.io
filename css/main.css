@@ -438,10 +438,11 @@ a:hover {
 	opacity:.6!important;
 	position:fixed;
 	left:1em;
+	top:8em;
 }
 
 .menus-image {
-	max-width:150px;
+	max-width:100px;
 }
 
 .menus-button:hover{
