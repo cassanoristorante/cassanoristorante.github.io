@@ -87,24 +87,25 @@ $('.m-nav-link').click(function(){
 
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
+
+var menu = $('#menu'),
+    button = $('.menus-button');
+
 $(window).scroll(function() {
-   var menu = $('#menu'),
-       button = $('.menus-button')
-       hT = $(menu).offset().top,
-       hH = $(menu).outerHeight(),
-       wH = $(window).height(),
-       wS = $(this).scrollTop(),
-       bT = $(menu).position().top + $(menu).outerHeight(true);
-   if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
-       $(button).css('visibility', 'visible');
-   } //else if (wS > bT+hH-wH){
-      // $(button).css('visibility', 'invisible');
-   //} else {
-   //    $(button).css('visibility', 'invisible');
-  // }
+    var element_position = $(menu).offset().top
+    y_scroll_pos = window.pageYOffset,
+    scroll_pos_test = element_position,
+    hT = $(menu).offset().top,
+    hH = $(menu).outerHeight(),
+    wH = $(window).height(),
+    wS = $(this).scrollTop(),
+    bT = $(menu).position().top + $(menu).outerHeight(true);
+    
+    if(y_scroll_pos > scroll_pos_test) {
+        $(button).fadeIn(500);
+    }
+
 });
-
-
 
 //$(window).scroll(function () {
 
