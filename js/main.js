@@ -97,7 +97,7 @@ $(window).scroll(function() {
        bT = $(menu).position().top + $(menu).outerHeight(true);
    if (wS > (hT+hH-wH)){
        $(button).css('visibility', 'visible');
-   } else if (wS > bT){
+   } else if (wS > bT+hH-wH){
        $(button).css('visibility', 'invisible');
    } else {
        $(button).css('visibility', 'invisible');
