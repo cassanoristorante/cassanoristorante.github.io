@@ -372,6 +372,19 @@ a:hover {
 	}
 }
 
+@media(max-width:280px){
+	.social-logo {
+		max-width:20px;
+	}
+
+	.site-logo {
+		max-width:120px;
+	}
+	.hamburger, .close {
+		max-width:55px;
+	}
+}
+
 
 /* ------- MAIN CONTENT -------- */
 
