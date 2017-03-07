@@ -367,54 +367,6 @@ a:hover {
 }
 
 
-/* -------- COMING SOON PAGE -------- */
-
-
-.bullet-thing {
-	text-align:center; 
-	color:#6B3333; 
-	font-size:3em;
-}
-
-.bullet {
-	color:black;
-	font-size:.8em;
-}
-
-@media(max-width:500px) {
-	.main-logo {
-		width:100%;
-	}
-	.bullet-thing {
-		font-size:2.5em;
-	}
-	.bullet {
-		font-size:.5em;
-	}
-}
-
-.host-message {
-	background-color:white;
-	color:black;
-	border-radius:5px;
-	width:600px;
-	padding:1em 2em;
-	margin:3em auto 1em auto;
-}
-
-@media(max-width:720px){
-	.host-message {
-		width:100%;
-		margin: 3em 0 1em 0;
-		padding:1em;
-	}
-}
-
-.coming-soon {
-	width:400px;
-	margin:3.5em auto 0 auto;
-}
-
 /* ------- MAIN CONTENT -------- */
 
 .page-title {
@@ -458,6 +410,18 @@ a:hover {
 .menu-link:hover {
 	background-color:#6B3333;
 	color:white;
+	opacity:1;
+}
+
+.menu-button {
+	visibility:hidden;
+	max-width:150px;
+	opacity:.6;
+	position:fixed;
+	left:1em;
+}
+
+.menu-button:hover{
 	opacity:1;
 }
 
