@@ -42,26 +42,27 @@ if (time < 16){
 
 $('.menu-link').click(function(){
 	$('#target').html('');
-	var whichMenu = event.target.id;
+	var whichMenu = event.target.id,
+  target = ('#target');
 	console.log(whichMenu);
 	if (whichMenu == 'lunch'){
-		$('#target').load('/lunch-menu.html');
+		$(target).load('/lunch-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	} else if (whichMenu == 'dinner'){
-		$('#target').load('/dinner-menu.html');
+		$(target).load('/dinner-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	} else if (whichMenu == 'bar'){
-		$('#target').load('/bar-menu.html');
+		$(target).load('/bar-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	} else if (whichMenu == 'catering'){
-		$('#target').load('/catering-menu.html');
+		$(target).load('/catering-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	} else{
-		$('#target').load('/wine-menu.html');
+		$(target).load('/wine-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	}
@@ -102,25 +103,24 @@ $('.m-nav-link').click(function(){
 
 // TRIGGER MENUS BUTTON ON SCROLLTOP
 
+// var menu = $('#menu');
+// var button = $('.menus-button');
 
-var menu = $('#menu');
-var button = $('.menus-button');
-
-$(window).scroll(function() {
-    var element_position = $(menu).offset().top
-    y_scroll_pos = window.pageYOffset,
-    scroll_pos_test = element_position,
-    hT = $(menu).offset().top,
-    hH = $(menu).outerHeight(),
-    wH = $(window).height(),
-    wS = $(this).scrollTop(),
-    bT = $(menu).position().top + $(menu).outerHeight(true);
+// $(window).scroll(function() {
+ //   var element_position = $(menu).offset().top
+  //  y_scroll_pos = window.pageYOffset,
+ //   scroll_pos_test = element_position,
+ //   hT = $(menu).offset().top,
+ //   hH = $(menu).outerHeight(),
+//    wH = $(window).height(),
+//    wS = $(this).scrollTop(),
+//    bT = $(menu).position().top + $(menu).outerHeight(true);
     
-    if(y_scroll_pos > scroll_pos_test) {
-        $(button).css('visibility', 'visible');
-    }
+//    if(y_scroll_pos > scroll_pos_test) {
+//        $(button).css('visibility', 'visible');
+//    }
 
-});
+//});
 
 //$(window).scroll(function () {
 
