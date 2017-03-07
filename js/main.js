@@ -164,7 +164,7 @@ $('.nav-link').click(function() {
 });
 
 $('.m-nav-link').click(function() {
-  $(this).addClass('activate');
+  $(this).addClass('activatem');
   $('.m-nav-link').not(this).removeClass('activatem');
   $('.m-nav-link').data('clicked', true);
 });
