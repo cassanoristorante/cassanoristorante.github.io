@@ -624,6 +624,7 @@ a:hover {
 
 .gallery-section {
 	min-height:600px;
+	position:relative;
 }
 
 .coming-soon-holder {
@@ -635,13 +636,15 @@ a:hover {
 
 .coming-soon-tag {
 	font-family:bold;
-	font-size:1.75em;
+	font-size:1em;
+	max-width:500px;
 }
 
 /*-----RESERVATIONS-----*/
 
 .reservations-section {
 	min-height:400px;
+	position:relative;
 }
 
 
