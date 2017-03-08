@@ -4,7 +4,21 @@ $(document).ready(function(){
 // HERO IMAGE
 
 function fullscreen(){
-        jQuery('#hero','#mobile-hero').css({
+        jQuery('#hero').css({
+            width: jQuery(window).width(),
+            height: jQuery(window).height()
+        });
+    }
+  
+    fullscreen();
+
+  // Run the function in case of window resize
+  jQuery(window).resize(function() {
+       fullscreen();         
+    });
+
+function fullscreen(){
+        jQuery('#mobile-hero').css({
             width: jQuery(window).width(),
             height: jQuery(window).height()
         });
