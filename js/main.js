@@ -257,7 +257,7 @@ $('.m-nav-link').click(function() {
             if (!$("nav li:last-child a").hasClass("activate")) {
                 var navActiveCurrent = $(".activate").attr("href");
                 $("a[href='" + navActiveCurrent + "']").removeClass("activate");
-                $("nav li:last-child a").addClass("activate");
+                $("nav li:last-child a").not('.mobile-nav > li').addClass("activate");
             }
         }
     });
