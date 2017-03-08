@@ -24,7 +24,7 @@ function fullscreen2(){
         });
     }
   
-    fullscreen();
+    fullscreen2();
 
   // Run the function in case of window resize
   jQuery(window).resize(function() {
