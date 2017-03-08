@@ -650,6 +650,11 @@ a:hover {
 	position:relative;
 }
 
+.reservation-booker {
+	margin:0 auto;
+	text-align:-webkit-center;
+	max-width:400px;
+}
 
 /*-----FOOTER-----*/
 
