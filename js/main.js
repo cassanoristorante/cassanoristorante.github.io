@@ -4,7 +4,7 @@ $(document).ready(function(){
 // HERO IMAGE
 
 function fullscreen(){
-        jQuery('#hero').css({
+        jQuery('#hero','#mobile-hero').css({
             width: jQuery(window).width(),
             height: jQuery(window).height()
         });
