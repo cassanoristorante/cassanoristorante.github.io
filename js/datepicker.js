@@ -1481,7 +1481,7 @@
             today: 'Today',
             clear: 'Clear',
             dateFormat: 'mm/dd/yyyy',
-            timeFormat: 'hh:ii aa'
+            timeFormat: 'hh:ii aa',
             firstDay: 0
         }
     };
