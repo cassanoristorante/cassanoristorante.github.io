@@ -368,6 +368,13 @@ a:hover {
 }
 
 
+@media(max-width:950px){
+.main-logo {
+		max-width:450px;
+	}
+}
+
+
 @media(max-width:600px){
 .main-logo {
 		max-width:300px;
