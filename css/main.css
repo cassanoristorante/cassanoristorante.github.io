@@ -652,6 +652,7 @@ a:hover {
 
 .reservation-booker {
 	margin:0 auto;
+	padding-top:1em;
 	text-align:-webkit-center;
 	max-width:400px;
 }
