@@ -17,7 +17,7 @@ function fullscreen(){
        fullscreen();         
     });
 
-function fullscreen(){
+function fullscreen2(){
         jQuery('#mobile-hero').css({
             width: jQuery(window).width(),
             height: jQuery(window).height()
@@ -28,7 +28,7 @@ function fullscreen(){
 
   // Run the function in case of window resize
   jQuery(window).resize(function() {
-       fullscreen();         
+       fullscreen2();         
     });
 
 // CASSANO LINK ONCLICK SCROLL TO TOP
