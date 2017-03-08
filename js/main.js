@@ -162,7 +162,7 @@ $('.m-nav-link').click(function(){
     else{
     }
 
-var topofDiv = $(".main-logo-holder").offset().top; //gets offset of header
+var topofDiv = $(".main-logo-holder").offset().top + 150; //gets offset of header
 
 function slider() {
     if($(window).scrollTop() > (topofDiv)){
