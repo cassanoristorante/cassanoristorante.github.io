@@ -299,7 +299,7 @@ a:hover {
 }
 
 #mobile-hero {
-	visibility:hidden;
+	display:none;
 	background-image:url(/images/mobilemain.gif);
   	background-size:cover;
   	position:relative;
@@ -307,10 +307,10 @@ a:hover {
 
 @media(max-width:550px) {
 	#hero {
-		visibility:hidden;
+		display:none;
 	}
 	#mobile-hero {
-		visibility:visible;
+		display:block;
 	}
 }
 
