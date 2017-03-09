@@ -14,8 +14,8 @@ $('.datepicker-here').datepicker({
             console.log(fd);
             //if (!d) return;
 
-            //var day = d.getDay();
-
+            var day = d.getDay();
+            console.log(day);
             // Trigger only if date is changed
             //if (prevDay != undefined && prevDay == day) return;
             //prevDay = day;
