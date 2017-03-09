@@ -22,7 +22,8 @@ $('.datepicker-here').datepicker({
             if (day == 0){
               $(sunday).css('display', 'none');
             } else if (day == 6) {
-              $(saturday).css('display', 'none')
+              $(saturday).css('display', 'none');
+              $(weedkay).css('display', 'block');
             } else if (day > 0 && day < 5){
               $(weekday).css('display', 'none');
             } else {
