@@ -15,7 +15,17 @@ $('.datepicker-here').datepicker({
             //if (!d) return;
 
             var day = d.getDay();
+            var saturday = $('.sat-no');
+            var sunday = $('.sun-no');
+            var weekday = $('.weekday-no');
             console.log(day);
+            if (day == 0){
+              $(sunday).css('display', 'none');
+            } else if (day == 6) {
+              $(saturday).css('display', 'none')
+            } else if (day > 0 && day < 5){
+              $(weekday).css('display', 'none');
+            }
             // Trigger only if date is changed
             //if (prevDay != undefined && prevDay == day) return;
             //prevDay = day;
@@ -34,7 +44,7 @@ $('.datepicker-here').datepicker({
             //    })
          //   }
         }
-    })
+    });
 
 // HERO IMAGE
 
