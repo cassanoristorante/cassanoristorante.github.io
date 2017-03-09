@@ -18,12 +18,13 @@ $('.datepicker-here').datepicker({
             var saturday = $('.sat-no');
             var sunday = $('.sun-no');
             var weekday = $('.weekday-no');
+            var weekend = $('.weekend')
             console.log(day);
             if (day == 0){
               $(sunday).css('display', 'none');
             } else if (day == 6) {
               $(saturday).css('display', 'none');
-              $(weedkay).css('display', 'block');
+              $(weekend).css('display', 'block');
             } else if (day > 0 && day < 5){
               $(weekday).css('display', 'none');
             } else {
