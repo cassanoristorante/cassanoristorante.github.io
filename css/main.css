@@ -444,6 +444,10 @@ a:hover {
 
 /* ------- MENU ------- */
 
+#target {
+	height:400px;
+}
+
 #menu {
 	overflow:hidden;
 }
