@@ -669,7 +669,9 @@ a:hover {
 .submit-button {
 	background-color:#6B3333;
 	color:white;
+	letter-spacing:1px;
 	padding:.25em .5em;
+	border-radius:5px;
 }
 
 /*-----FOOTER-----*/
