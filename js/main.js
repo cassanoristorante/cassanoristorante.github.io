@@ -8,9 +8,9 @@ $('.datepicker-here').datepicker({
     minDate: new Date() // Now can select only dates, which goes after today
 })
 
-$('.datepicker-here').onSelect(formattedDate){
+$('.datepicker-here').onSelect(function(){
   console.log(formattedDate);
-}
+});
 
 // HERO IMAGE
 
