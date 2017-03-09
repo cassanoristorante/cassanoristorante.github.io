@@ -1,6 +1,13 @@
 
 $(document).ready(function(){
 
+// DATE PICKER
+
+$('#minMaxExample').datepicker({
+    language: 'en',
+    minDate: new Date() // Now can select only dates, which goes after today
+})
+
 // HERO IMAGE
 
 function fullscreen(){

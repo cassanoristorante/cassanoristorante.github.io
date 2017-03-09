@@ -657,10 +657,6 @@ a:hover {
 	max-width:400px;
 }
 
-.without::-webkit-datetime-edit-ampm-field {
-   display: none;
- }
-
 /*-----FOOTER-----*/
 
 .site-footer {
