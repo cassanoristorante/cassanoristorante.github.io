@@ -8,9 +8,33 @@ $('.datepicker-here').datepicker({
     minDate: new Date() // Now can select only dates, which goes after today
 })
 
-$('.datepicker-here').onSelect(function(){
-  console.log(formattedDate);
-});
+$('.datepicker-here').datepicker({
+        onSelect: function (fd, d, picker) {
+            // Do nothing if selection was cleared
+            console.log(fd);
+            //if (!d) return;
+
+            //var day = d.getDay();
+
+            // Trigger only if date is changed
+            //if (prevDay != undefined && prevDay == day) return;
+            //prevDay = day;
+
+            // If chosen day is Saturday or Sunday when set
+            // hour value for weekends, else restore defaults
+            //if (day == 6 || day == 0) {
+            //    picker.update({
+            //        minHours: 10,
+            //        maxHours: 16
+            //    })
+            //} else {
+            //    picker.update({
+            //       minHours: 9,
+            //        maxHours: 18
+            //    })
+         //   }
+        }
+    })
 
 // HERO IMAGE
 
