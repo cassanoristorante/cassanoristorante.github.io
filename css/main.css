@@ -666,6 +666,12 @@ a:hover {
 	max-width:400px;
 }
 
+.submit-button {
+	background-color:#6B3333;
+	color:white;
+	padding:.25em .5em;
+}
+
 /*-----FOOTER-----*/
 
 .site-footer {
