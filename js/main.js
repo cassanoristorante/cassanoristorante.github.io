@@ -27,8 +27,9 @@ $('.datepicker-here').datepicker({
               $(weekend).css('display', 'block');
             } else if (day > 0 && day < 5){
               $(weekday).css('display', 'none');
+              $(saturday, sunday).css('display', 'block');
             } else {
-              $(saturday, sunday, weekday).css('display', 'block')
+              $(saturday, sunday, weekday).css('display', 'block');
             }
             // Trigger only if date is changed
             //if (prevDay != undefined && prevDay == day) return;
