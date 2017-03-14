@@ -304,6 +304,13 @@ $('.m-nav-link').click(function() {
 
 var pswpElement = document.querySelectorAll('.pswp')[0];
 
+
+var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 0 // start at first slide
+};
+
 // build items array
 var items = [
 
