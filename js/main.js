@@ -490,14 +490,10 @@ var slides = [
         // For example, demo gallery uses "author" property, which is used in the caption.
         // author: 'John Doe'
 
-    },
+    };
 
 // define options (if needed)
-var options = {
-    // optionName: 'option value'
-    // for example:
-    index: 0 // start at first slide
-};
+
 
 // Initializes and opens PhotoSwipe
 var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
