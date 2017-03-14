@@ -35,23 +35,6 @@ $('.datepicker-here').datepicker({
               $(friSat).css('display', 'none');
               $(monSat).css('display', 'none');
             }
-            // Trigger only if date is changed
-            //if (prevDay != undefined && prevDay == day) return;
-            //prevDay = day;
-
-            // If chosen day is Saturday or Sunday when set
-            // hour value for weekends, else restore defaults
-            //if (day == 6 || day == 0) {
-            //    picker.update({
-            //        minHours: 10,
-            //        maxHours: 16
-            //    })
-            //} else {
-            //    picker.update({
-            //       minHours: 9,
-            //        maxHours: 18
-            //    })
-         //   }
         }
     });
 
@@ -315,4 +298,210 @@ $('.m-nav-link').click(function() {
             }
         }
     });
+
+
+// GALLERY INITIALIZATION
+
+var pswpElement = document.querySelectorAll('.pswp')[0];
+
+// build items array
+var slides = [
+
+    // slide 1
+    {
+
+        src: '/images/gallery/restaurant1.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant1.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant2.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant2.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant3.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant3.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant4.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant4.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant5.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant5.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant6.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant6.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant7.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant7.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+    {
+
+        src: '/images/gallery/restaurant8.jpg', // path to image
+        w: 1000, // image width
+        h: 667, // image height
+
+        msrc: '/images/gallery/thumbnails/restaurant8.jpg', // small image placeholder,
+                        // main (large) image loads on top of it,
+                        // if you skip this parameter - grey rectangle will be displayed,
+                        // try to define this property only when small image was loaded before
+
+
+
+        title: 'Image Caption'  // used by Default PhotoSwipe UI
+                                // if you skip it, there won't be any caption
+
+
+        // You may add more properties here and use them.
+        // For example, demo gallery uses "author" property, which is used in the caption.
+        // author: 'John Doe'
+
+    },
+
+// define options (if needed)
+var options = {
+    // optionName: 'option value'
+    // for example:
+    index: 0 // start at first slide
+};
+
+// Initializes and opens PhotoSwipe
+var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+gallery.init();
+
+
 });
