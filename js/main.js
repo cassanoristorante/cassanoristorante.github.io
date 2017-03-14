@@ -490,7 +490,8 @@ var slides = [
         // For example, demo gallery uses "author" property, which is used in the caption.
         // author: 'John Doe'
 
-    };
+    }
+  ];
 
 // define options (if needed)
 
