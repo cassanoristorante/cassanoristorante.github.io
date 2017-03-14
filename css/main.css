@@ -674,6 +674,12 @@ a:hover {
 	border-radius:5px;
 }
 
+.mon-fri, .mon-sat, .fri-sat {
+	display:none;
+}
+
+.
+
 /*-----FOOTER-----*/
 
 .site-footer {
