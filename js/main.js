@@ -20,7 +20,8 @@ $('.datepicker-here').datepicker({
             var friSat = $('.fri-sat');
             console.log(day);
             if (day > 0 && day < 5){
-              $(monFri, monSat).css('display', 'block');
+              $(monFri).css('display', 'block');
+              $(monSat).css('display', 'block');
               $(friSat).css('display', 'none');
             } else if (day == 5) {
               $(friSat).css('display', 'block');
