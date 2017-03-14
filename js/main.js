@@ -305,7 +305,7 @@ $('.m-nav-link').click(function() {
 var pswpElement = document.querySelectorAll('.pswp')[0];
 
 // build items array
-var slides = [
+var items = [
 
     // slide 1
     {
