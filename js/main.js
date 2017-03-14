@@ -25,8 +25,13 @@ $('.datepicker-here').datepicker({
               $(friSat).css('display', 'none');
             } else if (day == 5) {
               $(friSat).css('display', 'block');
-            } else if (day == 6 || day == 0){
+            } else if (day == 6){
               $(monFri).css('display', 'none');
+              $(friSat).css('display', 'block');
+            } else if (day == 0) {
+              $(monFri).css('display', 'none');
+              $(friSat).css('display', 'none');
+              $(monSat).css('display', 'none');
             }
             // Trigger only if date is changed
             //if (prevDay != undefined && prevDay == day) return;
