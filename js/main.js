@@ -19,9 +19,10 @@ $('.datepicker-here').datepicker({
             var monSat = $('.mon-sat');
             var friSat = $('.fri-sat');
             console.log(day);
-            if (day > 0 && day <= 5){
+            if (day > 0 && day < 5){
               $(monFri, monSat).css('display', 'block');
-            } else if (day >= 5) {
+              $(friSat).css('display', 'none');
+            } else if (day == 5) {
               $(friSat).css('display', 'block');
             } else if (day == 6 || day == 0){
               $(monFri).css('display', 'none');
