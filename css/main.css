@@ -712,6 +712,13 @@ a:hover {
 	height:350px;
 }
 
+.pagemaster-tag {
+	max-width:175px;
+	position:absolute;
+	bottom:1em;
+	right:1em;
+}
+
 
 
 @media(min-width:950px){
