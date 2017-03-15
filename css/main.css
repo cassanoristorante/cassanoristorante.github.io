@@ -72,7 +72,7 @@ a:hover {
 }
 
 .fancy {
-	font-family:fancy;
+	font-family:fancy, ‘Palatino Linotype’, serif;
 }
 
 .thin {
