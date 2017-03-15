@@ -156,9 +156,16 @@ var waypoint = new Waypoint({
   element: document.getElementById('gallery'),
   handler: function() {
     target = ('#gallery-target');
-    $(target).load('/gallery.html')
-  }
-})
+    $(target).load('/gallery.html');
+  };
+});
+
+// LOAD GALLERY ON LINK CLICK
+
+$('.gallery-click').click(function(){
+  var target = ('#gallery-target');
+  $(target).load('/gallery.html');
+});
 
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
