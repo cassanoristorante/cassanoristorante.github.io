@@ -131,7 +131,7 @@ var waypoint = new Waypoint({
 var waypoint = new Waypoint({
   element: document.getElementById('trigger'),
   handler: function() {
-    $('.menus-button').fadeIn(500);
+    $('.menus-button').css('visibility', 'visible');
   },
   offset: 50
 });
