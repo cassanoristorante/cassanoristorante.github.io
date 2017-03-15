@@ -327,11 +327,11 @@ var options = {
 
 // Initializes and opens PhotoSwipe
 var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-gallery.init();
+
 
 
 $figure.click(function(){
-  openPhotoSwipe();
+  gallery.init();
 });
 
 
