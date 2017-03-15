@@ -507,7 +507,7 @@ a:hover {
 	margin: 1em auto 0 auto;
 }
 
-.m-menu-nav {
+.menu-selector {
 	display:none;
 }
 
@@ -589,7 +589,7 @@ a:hover {
 		display:none;
 	}
 
-	.m-menu-nav {
+	.menu-selector {
 		display:block;
 	}
 }
