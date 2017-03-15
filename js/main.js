@@ -155,7 +155,6 @@ $('.m-nav-link').click(function(){
 var waypoint = new Waypoint({
   element: document.getElementById('gallery'),
   handler: function() {
-    notify('Basic waypoint triggered')
     target = ('#gallery-target');
     $(target).load('/gallery.html')
   }
