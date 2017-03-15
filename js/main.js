@@ -153,7 +153,7 @@ $('.m-nav-link').click(function(){
 // LOAD GALLERY ON SCROLL PAST WAYPOINT
 
 var waypoint = new Waypoint({
-  element: document.getElementById('gallery-target'),
+  element: document.getElementById('gallery'),
   handler: function() {
     notify('Basic waypoint triggered')
     target = ('#gallery-target');
