@@ -1,6 +1,15 @@
 
 $(document).ready(function(){
 
+// MASONRY GRID INITIALIZE
+
+$(window).on('load', function() {
+  $('#grid').masonry({
+    // options
+   itemSelector: '.grid-item'
+  });
+});
+
 // DATE PICKER
 
 $('.datepicker-here').datepicker({
@@ -119,12 +128,8 @@ $('.menu-link').click(function(){
 	}
  });
 
-$(window).on('load', function() {
-	$('#grid').masonry({
-  	// options
- 	 itemSelector: '.grid-item'
-	});
-});
+
+// MOBILE NAV FUNCTIONALITY
 
 $('.hamburger').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
@@ -145,49 +150,16 @@ $('.m-nav-link').click(function(){
 });
 
 
-// ACTIVE STATE TRIGGER FOR NAV LINKS
+// LOAD GALLERY ON SCROLL PAST WAYPOINT
 
-// $(window).scroll(function(){
-//   if($(window).scrollTop() == 
-// })
-
-
-// TRIGGER MENUS BUTTON ON SCROLLTOP
-
-// var menu = $('#menu');
-// var button = $('.menus-button');
-
-// $(window).scroll(function() {
- //   var element_position = $(menu).offset().top
-  //  y_scroll_pos = window.pageYOffset,
- //   scroll_pos_test = element_position,
- //   hT = $(menu).offset().top,
- //   hH = $(menu).outerHeight(),
-//    wH = $(window).height(),
-//    wS = $(this).scrollTop(),
-//    bT = $(menu).position().top + $(menu).outerHeight(true);
-    
-//    if(y_scroll_pos > scroll_pos_test) {
-//        $(button).css('visibility', 'visible');
-//    }
-
-//});
-
-//$(window).scroll(function () {
-
-//var triggerPos = $('#trigger').offset().top;
-//var trigger2Pos = $('#trigger2').offset().top;
-
-//if($(window).scrollTop() > (triggerPos)){
-  //     $(".menu-button").css('visibility', 'visible');
-  //  }
-  //  else if($(window).scrollTop() > (trigger2Pos)){
-  //      $(".menu-button").css('visibility', 'hidden');
-  //  }
-  //  else {
-  //      $(".menu-button").css('visibility', 'hidden');
-  //  }
-//});
+var waypoint = new Waypoint({
+  element: document.getElementById('gallery-target'),
+  handler: function() {
+    notify('Basic waypoint triggered')
+    target = ('#gallery-target');
+    $(target).load('/gallery.html')
+  }
+})
 
 // NAV LOGO APPEARS AFTER SCROLL PAST MAIN LOGO
 
