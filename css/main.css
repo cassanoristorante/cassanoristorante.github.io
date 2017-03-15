@@ -434,6 +434,21 @@ a:hover {
 	}
 }
 
+@media(max-width:300px){
+	.social-logo {
+		max-width:22px;
+	}
+
+	.main-logo {
+		max-width:240px;
+	}
+
+	.site-logo {
+		max-width:115px;
+	}
+}
+
+
 
 /* ------- MAIN CONTENT -------- */
 
@@ -715,7 +730,7 @@ a:hover {
 .pagemaster-tag {
 	max-width:125px;
 	position:absolute;
-	bottom:1em;
+	bottom:.5em;
 	right:1em;
 }
 
