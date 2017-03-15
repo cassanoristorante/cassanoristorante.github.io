@@ -98,8 +98,9 @@ $('.menu-link').click(function(){
 
 // LOAD MOBILE MENUS ON CLICK
 
-$( "#menu-select" ).select(function() {
+$("#menu-select").select(function() {
   var whichMenu = $(this).val();
+  console.log().whichMenu;
   target = ('#target');
   if (whichMenu == 'lunch'){
     $(target).load('/lunch-menu.html');
