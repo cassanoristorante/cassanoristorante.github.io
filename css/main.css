@@ -695,13 +695,13 @@ a:hover {
 
 @media(max-width:965px){
 	.gallery-section {
-		min-height:2060px;
+		min-height:2100px;
 	}
 }
 
 @media(max-width:647px){
 	.gallery-section {
-		min-height:4120px;
+		min-height:4175px;
 	}
 }
 
