@@ -347,7 +347,6 @@ $('.m-nav-link').click(function() {
             lightBox.init();
         });
     });
-  });
 
 
 
