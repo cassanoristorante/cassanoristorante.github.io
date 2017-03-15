@@ -88,13 +88,32 @@ $('.menu-link').click(function(){
 		$(target).load('/catering-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
-	} else{
+	} else {
 		$(target).load('/wine-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	}
  });
 
+
+// LOAD MOBILE MENUS ON CLICK
+
+$( "#menu-select" ).select(function() {
+  var whichMenu = $(this).val();
+  target = ('#target');
+  if (whichMenu == 'lunch'){
+    $(target).load('/lunch-menu.html');
+} else if (whichMenu == 'dinner'){
+    $(target).load('/dinner-menu.html');
+} else if (whichMenu == 'bar'){
+    $(target).load('/bar-menu.html');
+} else if (whichMenu == 'catering'){
+    $(target).load('/catering-menu.html');
+} else {
+    $(target).load('/wine-menu.html');
+}
+
+});
 
 // MOBILE NAV FUNCTIONALITY
 
