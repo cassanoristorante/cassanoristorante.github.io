@@ -733,6 +733,16 @@ a:hover {
 	margin: 1em 2em;
 }
 
+.thumbnail-img {
+	max-width:250px;
+}
+
+@media(max-width:250px){
+	.thumbnail-img {
+		width:100%;
+	}
+}
+
 .gallery-title {
 	text-align:left;
 	margin-top:.75em;
