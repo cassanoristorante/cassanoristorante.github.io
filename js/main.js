@@ -1,51 +1,6 @@
 
 $(document).ready(function(){
 
-// MASONRY GRID INITIALIZE
-
-$(window).on('load', function() {
-  $('#grid').masonry({
-    // options
-   itemSelector: '.grid-item'
-  });
-});
-
-// DATE PICKER
-
-$('.datepicker-here').datepicker({
-    language: 'en',
-    minDate: new Date() // Now can select only dates, which goes after today
-})
-
-$('.datepicker-here').datepicker({
-        onSelect: function (fd, d, picker) {
-            // Do nothing if selection was cleared
-            console.log(fd);
-            //if (!d) return;
-
-            var day = d.getDay();
-            var monFri = $('.mon-fri');
-            var monSat = $('.mon-sat');
-            var friSat = $('.fri-sat');
-            console.log(day);
-            if (day > 0 && day < 5){
-              $(monFri).css('display', 'block');
-              $(monSat).css('display', 'block');
-              $(friSat).css('display', 'none');
-            } else if (day == 5) {
-              $(friSat).css('display', 'block');
-              $(monSat).css('display', 'block');
-            } else if (day == 6){
-              $(monFri).css('display', 'none');
-              $(monSat).css('display', 'block');
-              $(friSat).css('display', 'block');
-            } else if (day == 0) {
-              $(monFri).css('display', 'none');
-              $(friSat).css('display', 'none');
-              $(monSat).css('display', 'none');
-            }
-        }
-    });
 
 // HERO IMAGE
 
@@ -77,11 +32,23 @@ function fullscreen2(){
        fullscreen2();         
     });
 
+
 // CASSANO LINK ONCLICK SCROLL TO TOP
 
 $('.site-title').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
 });
+
+
+// MASONRY GRID INITIALIZE
+
+$(window).on('load', function() {
+  $('#grid').masonry({
+    // options
+   itemSelector: '.grid-item'
+  });
+});
+
 
 /* ------ LOAD LUNCH OR DINNER MENU BASED ON TIME OF DAY ------- */
 
@@ -159,6 +126,14 @@ var waypoint = new Waypoint({
     $(target).load('/gallery.html');
   },
   offset: 125
+});
+
+var waypoint = new Waypoint({
+  element: document.getElementById('trigger'),
+  handler: function() {
+    $('.menus-button').fadeIn(500);
+  },
+  offset: 50
 });
 
 // LOAD GALLERY ON LINK CLICK
@@ -274,6 +249,43 @@ $('.m-nav-link').click(function() {
                 var navActiveCurrent = $(".activate").attr("href");
                 $("a[href='" + navActiveCurrent + "']").removeClass("activate");
                 $("nav li:last-child a").not('.mobile-nav > li').addClass("activate");
+            }
+        }
+    });
+
+// DATE PICKER
+
+$('.datepicker-here').datepicker({
+    language: 'en',
+    minDate: new Date() // Now can select only dates, which goes after today
+})
+
+$('.datepicker-here').datepicker({
+        onSelect: function (fd, d, picker) {
+            // Do nothing if selection was cleared
+            console.log(fd);
+            //if (!d) return;
+
+            var day = d.getDay();
+            var monFri = $('.mon-fri');
+            var monSat = $('.mon-sat');
+            var friSat = $('.fri-sat');
+            console.log(day);
+            if (day > 0 && day < 5){
+              $(monFri).css('display', 'block');
+              $(monSat).css('display', 'block');
+              $(friSat).css('display', 'none');
+            } else if (day == 5) {
+              $(friSat).css('display', 'block');
+              $(monSat).css('display', 'block');
+            } else if (day == 6){
+              $(monFri).css('display', 'none');
+              $(monSat).css('display', 'block');
+              $(friSat).css('display', 'block');
+            } else if (day == 0) {
+              $(monFri).css('display', 'none');
+              $(friSat).css('display', 'none');
+              $(monSat).css('display', 'none');
             }
         }
     });
