@@ -80,11 +80,13 @@ a:hover {
 }
 
 .regular {
-	font-family:robotoRegular;
+	font-family:robotoRegular, Verdana, sans-serif;
+	font-weight:bold;
 }
 
 .bold {
-	font-family:robotoBold;
+	font-family:robotoBold, Verdana, sans-serif;
+	font-weight:bold;
 }
 
 .burgundy {
