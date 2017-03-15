@@ -507,6 +507,10 @@ a:hover {
 	margin: 1em auto 0 auto;
 }
 
+.m-menu-nav {
+	display:none;
+}
+
 .masonry {
 	width: 850px;
     margin: 2em auto 0 auto;
@@ -533,7 +537,6 @@ a:hover {
     background-color: #6B3333;
     color: white;
     font-family: robotoThin;
-    display:none;
 }
 
 .menu-link:active, .activated {
