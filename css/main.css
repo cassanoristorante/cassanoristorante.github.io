@@ -457,16 +457,16 @@ a:hover {
 		max-width:18px;
 	}
 
-	.social-media {
-		margin-left:45%;
-	}
-
 	.main-logo {
 		max-width:175px;
 	}
 
 	.site-logo, .site-title {
 		max-width:90px;
+	}
+
+	.site-logo {
+		margin-top:.5em;
 	}
 
 	.hamburger, .close {
@@ -478,7 +478,11 @@ a:hover {
 	}
 
 	.page-title {
-		font-size:3em;
+		font-size:3em!important;
+	}
+
+	.burger-bun {
+		max-width:50px;
 	}
 }
 
