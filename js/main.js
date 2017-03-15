@@ -157,7 +157,8 @@ var waypoint = new Waypoint({
   handler: function() {
     target = ('#gallery-target');
     $(target).load('/gallery.html');
-  }
+  },
+  offset: 100
 });
 
 // LOAD GALLERY ON LINK CLICK
