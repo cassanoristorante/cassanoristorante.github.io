@@ -432,6 +432,10 @@ a:hover {
 	.site-logo, .site-title {
 		max-width:120px;
 	}
+
+	.page-title {
+		font-size:3.25em;
+	}
 }
 
 @media(max-width:300px){
@@ -471,6 +475,10 @@ a:hover {
 
 	.header-bar {
 		height:70px;
+	}
+
+	.page-title {
+		font-size:3em;
 	}
 }
 
