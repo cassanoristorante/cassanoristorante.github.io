@@ -653,6 +653,11 @@ a:hover {
 	margin-top:.75em;
 }
 
+.thumb-link {
+	width:250px;
+	height:167px;
+}
+
 /*-----RESERVATIONS-----*/
 
 .reservations-section {
