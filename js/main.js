@@ -302,7 +302,6 @@ $('.m-nav-link').click(function() {
 
 // GALLERY INITIALIZATION
 
-(function($) {
     var $pswp = $('.pswp')[0];
     var image = [];
 
