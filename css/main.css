@@ -537,7 +537,7 @@ a:hover {
     background-color: #6B3333;
     color: white;
     font-family: robotoThin;
-    margin-top:.75em;
+    margin-top:1.5em;
 }
 
 .menu-link:active, .activated {
