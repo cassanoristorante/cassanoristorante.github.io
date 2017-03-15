@@ -415,7 +415,7 @@ a:hover {
 		max-width:28px;
 	}
 
-	.site-logo {
+	.site-logo, .site-title {
 		max-width:130px;
 	}
 }
@@ -429,7 +429,7 @@ a:hover {
 		max-width:250px;
 	}
 
-	.site-logo {
+	.site-logo, .site-title {
 		max-width:120px;
 	}
 }
@@ -443,7 +443,7 @@ a:hover {
 		max-width:230px;
 	}
 
-	.site-logo {
+	.site-logo, .site-title {
 		max-width:110px;
 	}
 }
