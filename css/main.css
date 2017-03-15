@@ -529,6 +529,10 @@ a:hover {
 	margin:.5em 1em;
 }
 
+.m-menu-link {
+	
+}
+
 .menu-link:active, .activated {
 	background-color:#6B3333;
 	color:white;
