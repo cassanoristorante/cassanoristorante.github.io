@@ -330,9 +330,9 @@ var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options)
 gallery.init();
 
 
-document.getElementByClass('picture').onclick = openPhotoSwipe;
-
-
+$('.picture').click(function(){
+  openPhotoSwipe();
+});
 
 
 });
