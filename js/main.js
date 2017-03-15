@@ -128,7 +128,7 @@ var waypoint = new Waypoint({
   offset: 125
 });
 
-var waypoint = new Waypoint({
+var waypoint2 = new Waypoint({
   element: document.getElementById('trigger'),
   handler: function() {
     $('.menus-button').css('visibility', 'visible');
