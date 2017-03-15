@@ -76,7 +76,7 @@ a:hover {
 }
 
 .thin {
-	font-family:robotoThin;
+	font-family:robotoThin, Verdana, sans-serif;
 }
 
 .regular {
