@@ -648,16 +648,9 @@ a:hover {
 	margin: 1em 2em;
 }
 
-.coming-soon-holder {
-	position:absolute;
-	top: 50%; left: 50%;
-  	transform: translate(-50%,-50%);
-	text-align:center;
-}
-
-.coming-soon-tag {
-	color:black;
-	text-align:center;
+.gallery-title {
+	text-align:left;
+	margin-top:.75em;
 }
 
 /*-----RESERVATIONS-----*/
