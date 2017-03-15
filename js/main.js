@@ -98,7 +98,7 @@ $('.menu-link').click(function(){
 
 // LOAD MOBILE MENUS ON CLICK
 
-$("#menu-select").select(function() {
+$("#menu-select").change(function() {
   var whichMenu = $(this).val();
   console.log().whichMenu;
   target = ('#target');
