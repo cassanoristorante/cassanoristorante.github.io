@@ -100,7 +100,7 @@ $('.menu-link').click(function(){
 
 $("#menu-select").change(function() {
   var whichMenu = $(this).val();
-  console.log().whichMenu;
+  console.log(whichMenu);
   target = ('#target');
   if (whichMenu == 'lunch'){
     $(target).load('/lunch-menu.html');
