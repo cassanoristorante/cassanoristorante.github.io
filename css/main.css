@@ -693,6 +693,18 @@ a:hover {
 	position:relative;
 }
 
+@media(max-width:965px){
+	.gallery-section {
+		min-height:2060px;
+	}
+}
+
+@media(max-width:647px){
+	.gallery-section {
+		min-height:4120px;
+	}
+}
+
 .picture {
 	margin: 0 auto;
 }
