@@ -4,39 +4,12 @@ $(document).ready(function(){
 
 // HERO IMAGE
 
-function fullscreen(){
-        jQuery('#hero').css({
-            width: jQuery(window).width(),
-            height: jQuery(window).height()
-        });
-    }
-  
-    fullscreen();
-
-  // Run the function in case of window resize
-  jQuery(window).resize(function() {
-       fullscreen();         
-    });
-
-function fullscreen2(){
-        jQuery('#mobile-hero').css({
-            width: jQuery(window).width(),
-            height: jQuery(window).height()
-        });
-    }
-  
-    fullscreen2();
-
-  // Run the function in case of window resize
-  jQuery(window).resize(function() {
-       fullscreen2();         
-    });
-
 
 // CASSANO LINK ONCLICK SCROLL TO TOP
 
 $('.site-title').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
+    $('.nav-link').removeClass('activate');
 });
 
 
@@ -54,14 +27,28 @@ $(window).on('load', function() {
 
 var objDate = new Date();
 var time = objDate.getHours();
+var dinnerValue  = localStorage.getItem("dinner");
+var lunchValue  = localStorage.getItem("lunch");
+
 console.log(time);
 
 if (time < 16){
 	$('#target').load('/lunch-menu.html');
   $('#lunch').addClass('activated');
+  $("#menu-select").val('lunch');
 } else if (time >= 16){
 	$('#target').load('/dinner-menu.html');
   $('#dinner').addClass('activated');
+  $("#menu-select").val('dinner')
+  if (window.matchMedia('(max-width: 870px)').matches){
+    if (window.matchMedia('(min-width: 400px)').matches){
+      $('#menu').css('min-height','5250px');
+    } else { 
+      $('#menu').css('min-height','6000px');
+    }
+  } else {
+     $('#menu').css('min-height','3082px');
+  }
 };
 
 
@@ -76,24 +63,69 @@ $('.menu-link').click(function(){
 		$(target).load('/lunch-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
+      if (window.matchMedia('(max-width: 870px)').matches){
+        if (window.matchMedia('(min-width: 400px)').matches){
+          $('#menu').css('min-height','5700px');
+        } else { 
+          $('#menu').css('min-height','6500px');
+        }
+      } else {
+     $('#menu').css('min-height','3082px');
+      }
 	} else if (whichMenu == 'dinner'){
 		$(target).load('/dinner-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
+    if (window.matchMedia('(max-width: 870px)').matches){
+      if (window.matchMedia('(min-width: 400px)').matches){
+        $('#menu').css('min-height','5250px');
+      } else { 
+        $('#menu').css('min-height','6000px');
+      }
+    } else {
+      $('#menu').css('min-height','3082px');
+    }
 	} else if (whichMenu == 'bar'){
 		$(target).load('/bar-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
+    if (window.matchMedia('(max-width: 870px)').matches){
+      if (window.matchMedia('(min-width: 400px)').matches){
+        $('#menu').css('min-height','2100px');
+      } else { 
+        $('#menu').css('min-height','2475px');
+      }
+    } else {
+      $('#menu').css('min-height','1200px');
+    }
 	} else if (whichMenu == 'catering'){
 		$(target).load('/catering-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
+    if (window.matchMedia('(max-width: 870px)').matches){
+      if (window.matchMedia('(min-width: 400px)').matches){
+        $('#menu').css('min-height','1500px');
+      } else { 
+        $('#menu').css('min-height','1700px');
+      }
+    } else {
+      $('#menu').css('min-height','1200px');
+    }
 	} else {
 		$(target).load('/wine-menu.html');
     $(this).addClass('activated');
     $(this).siblings().not(this).removeClass('activated');
 	}
  });
+
+
+// #MENU OVERFLOW VISIBLE ON MAX WIDTH
+ 
+ if (window.matchMedia('(max-width: 870px)').matches){
+  $('#menu').css('overflow', 'visible');
+} else {
+
+};
 
 
 // LOAD MOBILE MENUS ON CLICK
@@ -104,12 +136,48 @@ $("#menu-select").change(function() {
   target = ('#target');
   if (whichMenu == 'lunch'){
     $(target).load('/lunch-menu.html');
+    if (window.matchMedia('(max-width: 870px)').matches){
+        if (window.matchMedia('(min-width: 400px)').matches){
+          $('#menu').css('min-height','5700px');
+        } else { 
+          $('#menu').css('min-height','6500px');
+        }
+      } else {
+     $('#menu').css('min-height','3082px');
+      }
 } else if (whichMenu == 'dinner'){
     $(target).load('/dinner-menu.html');
+    if (window.matchMedia('(max-width: 870px)').matches){
+      if (window.matchMedia('(min-width: 400px)').matches){
+        $('#menu').css('min-height','5250px');
+      } else { 
+        $('#menu').css('min-height','6000px');
+      }
+    } else {
+      $('#menu').css('min-height','3082px');
+    }
 } else if (whichMenu == 'bar'){
     $(target).load('/bar-menu.html');
+    if (window.matchMedia('(max-width: 870px)').matches){
+      if (window.matchMedia('(min-width: 400px)').matches){
+        $('#menu').css('min-height','2100px');
+      } else { 
+        $('#menu').css('min-height','2475px');
+      }
+    } else {
+      $('#menu').css('min-height','1200px');
+    }
 } else if (whichMenu == 'catering'){
     $(target).load('/catering-menu.html');
+    if (window.matchMedia('(max-width: 870px)').matches){
+      if (window.matchMedia('(min-width: 400px)').matches){
+        $('#menu').css('min-height','1500px');
+      } else { 
+        $('#menu').css('min-height','1700px');
+      }
+    } else {
+      $('#menu').css('min-height','1200px');
+    }
 } else {
     $(target).load('/wine-menu.html');
 }
