@@ -36,6 +36,15 @@ if (time < 16){
 	$('#target').load('/lunch-menu.html');
   $('#lunch').addClass('activated');
   $("#menu-select").val('lunch');
+  if (window.matchMedia('(max-width: 870px)').matches){
+        if (window.matchMedia('(min-width: 400px)').matches){
+          $('#menu').css('min-height','5700px');
+        } else { 
+          $('#menu').css('min-height','6500px');
+        }
+      } else {
+     $('#menu').css('min-height','3082px');
+      }
 } else if (time >= 16){
 	$('#target').load('/dinner-menu.html');
   $('#dinner').addClass('activated');
