@@ -197,7 +197,7 @@ $("#menu-select").change(function() {
 
 $('.burger-bun').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
-	$('.hamburger').css('display', 'none');
+	$(this).css('display', 'none');
 	$('.close').css('display', 'inline-block');
 });
 
