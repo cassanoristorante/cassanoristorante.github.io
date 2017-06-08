@@ -118,7 +118,7 @@ $('.menu-link').click(function(){
         $('#menu').css('min-height','1700px');
       }
     } else {
-      $('#menu').css('min-height', '2000px');
+      $('#menu').css('min-height', '1800px');
     }
 	} else {
 		$(target).load('/wine-menu.html');
@@ -185,7 +185,7 @@ $("#menu-select").change(function() {
         $('#menu').css('min-height','1700px');
       }
     } else {
-      $('#menu').css('min-height','2000px');
+      $('#menu').css('min-height','1800px');
     }
 } else {
     $(target).load('/wine-menu.html');
