@@ -197,20 +197,20 @@ $("#menu-select").change(function() {
 
 $('.burger-bun').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
-	$(this).css('display', 'none');
+	$('.hamburger').css('display', 'none');
 	$('.close').css('display', 'inline-block');
 });
 
 $('.close').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
 	$(this).css('display', 'none');
-	$('.burger-bun').css('display', 'inline-block');
+	$('.hamburger').css('display', 'inline-block');
 });
 
 $('.m-nav-link').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
 	$('.close').css('display', 'none');
-	$('.burger-bun').css('display', 'inline-block');
+	$('.hamburger').css('display', 'inline-block');
 });
 
 
