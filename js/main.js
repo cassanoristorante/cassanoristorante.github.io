@@ -40,7 +40,7 @@ if (time < 16){
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6350px');
+          $('#menu').css('min-height','6250px');
         }
       } else {
      $('#menu').css('min-height','3082px');
@@ -53,7 +53,7 @@ if (time < 16){
     if (window.matchMedia('(min-width: 400px)').matches){
       $('#menu').css('min-height','5250px');
     } else { 
-      $('#menu').css('min-height','5800px');
+      $('#menu').css('min-height','5700px');
     }
   } else {
      $('#menu').css('min-height','3082px');
@@ -76,7 +76,7 @@ $('.menu-link').click(function(){
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6350px');
+          $('#menu').css('min-height','6250px');
         }
       } else {
      $('#menu').css('min-height','3082px');
@@ -89,7 +89,7 @@ $('.menu-link').click(function(){
       if (window.matchMedia('(min-width: 400px)').matches){
         $('#menu').css('min-height','5250px');
       } else { 
-        $('#menu').css('min-height','5800px');
+        $('#menu').css('min-height','5700px');
       }
     } else {
       $('#menu').css('min-height','3082px');
@@ -149,7 +149,7 @@ $("#menu-select").change(function() {
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6350px');
+          $('#menu').css('min-height','6250px');
         }
       } else {
      $('#menu').css('min-height','3082px');
@@ -160,7 +160,7 @@ $("#menu-select").change(function() {
       if (window.matchMedia('(min-width: 400px)').matches){
         $('#menu').css('min-height','5250px');
       } else { 
-        $('#menu').css('min-height','5800px');
+        $('#menu').css('min-height','5700px');
       }
     } else {
       $('#menu').css('min-height','3082px');
