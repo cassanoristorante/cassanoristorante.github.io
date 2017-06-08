@@ -76,7 +76,7 @@ $('.menu-link').click(function(){
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6500px');
+          $('#menu').css('min-height','6400px');
         }
       } else {
      $('#menu').css('min-height','3082px');
