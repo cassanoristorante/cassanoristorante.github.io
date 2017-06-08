@@ -195,9 +195,9 @@ $("#menu-select").change(function() {
 
 // MOBILE NAV FUNCTIONALITY
 
-$('.hamburger').click(function(){
+$('.burger-bun').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
-	$(this).css('display', 'none');
+	$(this > img).css('display', 'none');
 	$('.close').css('display', 'inline-block');
 });
 
