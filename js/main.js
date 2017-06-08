@@ -40,7 +40,7 @@ if (time < 16){
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6500px');
+          $('#menu').css('min-height','6350px');
         }
       } else {
      $('#menu').css('min-height','3082px');
@@ -53,7 +53,7 @@ if (time < 16){
     if (window.matchMedia('(min-width: 400px)').matches){
       $('#menu').css('min-height','5250px');
     } else { 
-      $('#menu').css('min-height','6000px');
+      $('#menu').css('min-height','5800px');
     }
   } else {
      $('#menu').css('min-height','3082px');
@@ -76,7 +76,7 @@ $('.menu-link').click(function(){
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6400px');
+          $('#menu').css('min-height','6350px');
         }
       } else {
      $('#menu').css('min-height','3082px');
@@ -89,7 +89,7 @@ $('.menu-link').click(function(){
       if (window.matchMedia('(min-width: 400px)').matches){
         $('#menu').css('min-height','5250px');
       } else { 
-        $('#menu').css('min-height','6000px');
+        $('#menu').css('min-height','5800px');
       }
     } else {
       $('#menu').css('min-height','3082px');
@@ -118,7 +118,7 @@ $('.menu-link').click(function(){
         $('#menu').css('min-height','1700px');
       }
     } else {
-      $('#menu').css('min-height','1200px');
+      $('#menu').css('min-height', '2000px');
     }
 	} else {
 		$(target).load('/wine-menu.html');
@@ -149,7 +149,7 @@ $("#menu-select").change(function() {
         if (window.matchMedia('(min-width: 400px)').matches){
           $('#menu').css('min-height','5700px');
         } else { 
-          $('#menu').css('min-height','6500px');
+          $('#menu').css('min-height','6350px');
         }
       } else {
      $('#menu').css('min-height','3082px');
@@ -160,7 +160,7 @@ $("#menu-select").change(function() {
       if (window.matchMedia('(min-width: 400px)').matches){
         $('#menu').css('min-height','5250px');
       } else { 
-        $('#menu').css('min-height','6000px');
+        $('#menu').css('min-height','5800px');
       }
     } else {
       $('#menu').css('min-height','3082px');
@@ -185,7 +185,7 @@ $("#menu-select").change(function() {
         $('#menu').css('min-height','1700px');
       }
     } else {
-      $('#menu').css('min-height','1200px');
+      $('#menu').css('min-height','2000px');
     }
 } else {
     $(target).load('/wine-menu.html');
@@ -195,7 +195,7 @@ $("#menu-select").change(function() {
 
 // MOBILE NAV FUNCTIONALITY
 
-$('.hamburger').click(function(){
+$('.burger-bun').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
 	$(this).css('display', 'none');
 	$('.close').css('display', 'inline-block');
