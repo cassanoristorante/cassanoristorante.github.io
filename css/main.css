@@ -500,7 +500,7 @@ a:hover {
 }
 
 #menu {
-	overflow:hidden;
+	overflow:auto;
 	min-height:1200px;
 }
 
