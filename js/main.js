@@ -204,13 +204,13 @@ $('.burger-bun').click(function(){
 $('.close').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
 	$(this).css('display', 'none');
-	$('.burger-bun').css('display', 'inline-block');
+	$('.burger-bun').css('display', 'block');
 });
 
 $('.m-nav-link').click(function(){
 	$('.mobile-nav').animate({width:'toggle'},500);
 	$('.close').css('display', 'none');
-	$('.burger-bun').css('display', 'inline-block');
+	$('.burger-bun').css('display', 'block');
 });
 
 
