@@ -562,6 +562,10 @@ a:hover {
 	top:8em;
 }
 
+.width-control {
+	width:300px;
+}
+
 .menus-image {
 	max-width:100px;
 }
